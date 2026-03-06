@@ -209,9 +209,11 @@ export const ConsultasPage = (): JSX.Element => {
 
           {/* Separator */}
           <FadeUp className="flex items-center gap-8 justify-center pt-2" delay={0.3}>
-            <div className="h-px w-full max-w-[400px] bg-textoparagraph/20" />
-            <span className="[font-family:'Literata',Helvetica] text-textoparagraph text-lg shrink-0">❀</span>
-            <div className="h-px w-full max-w-[400px] bg-textoparagraph/20" />
+          <div className="flex items-center gap-4 my-4">
+            <div className="flex-1 h-px bg-[#502f27]/20" />
+            <img src="/figmaAssets/icons/icon-flor.svg" alt="" className="w-5 h-5 opacity-50" />
+            <div className="flex-1 h-px bg-[#502f27]/20" />
+          </div>
           </FadeUp>
         </div>
       </section>
