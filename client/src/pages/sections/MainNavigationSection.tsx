@@ -36,7 +36,7 @@ export const MainNavigationSection = (): JSX.Element => {
                 <NavigationMenuLink asChild>
                   <Link
                     href={item.href}
-                    className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textoparagraph text-lg tracking-[0] leading-[30px] cursor-pointer hover:opacity-80 transition-opacity"
+                    className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textoparagraph text-lg tracking-[0] leading-[30px] cursor-pointer relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-[#B84C32] after:transition-all after:duration-300 hover:text-[#B84C32] hover:after:w-full transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -68,7 +68,7 @@ export const MainNavigationSection = (): JSX.Element => {
                 <NavigationMenuLink asChild>
                   <Link
                     href={item.href}
-                    className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textoparagraph text-lg tracking-[0] leading-[30px] cursor-pointer hover:opacity-80 transition-opacity"
+                    className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textoparagraph text-lg tracking-[0] leading-[30px] cursor-pointer relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-[#B84C32] after:transition-all after:duration-300 hover:text-[#B84C32] hover:after:w-full transition-colors"
                   >
                     {item.label}
                   </Link>
