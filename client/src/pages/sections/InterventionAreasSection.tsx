@@ -56,11 +56,13 @@ export const InterventionAreasSection = (): JSX.Element => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {interventionAreas.map((area, index) => (
             <FadeUp key={index} delay={(index % 3) * 0.1} className="flex flex-col gap-4">
-              <img
-                src={area.image}
-                alt={area.title}
-                className="w-full aspect-[457/306] object-cover object-top rounded-[14px]"
-              />
+              <Link href={`/especialidades/${area.slug}`} onClick={() => window.scrollTo(0, 0)}>
+                <img
+                  src={area.image}
+                  alt={area.title}
+                  className="w-full aspect-[457/306] object-cover object-top rounded-[14px] cursor-pointer hover:opacity-90 transition-opacity"
+                />
+              </Link>
               <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-2xl md:text-[32px] leading-[1.25]">
                 {area.title}
               </h3>
@@ -69,6 +71,7 @@ export const InterventionAreasSection = (): JSX.Element => {
               </p>
               <Link
                 href={`/especialidades/${area.slug}`}
+                onClick={() => window.scrollTo(0, 0)}
                 className="btn-pill inline-block w-fit px-6 py-2.5 rounded-[50px] border border-[#C79DCE] [font-family:'Literata',Helvetica] font-medium text-[#893420] text-base hover:bg-[#B84C32] hover:text-white hover:border-[#B84C32] transition-all duration-200"
               >
                 Saiba mais
