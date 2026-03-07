@@ -79,12 +79,12 @@ const specialtiesData: Record<string, {
 };
 
 const allSpecialties = [
-  { title: "Perturbações de ansiedade", image: "/figmaAssets/frame-5-2.svg", href: "/especialidades/ansiedade" },
-  { title: "Perturbações de humor", image: "/figmaAssets/frame-5-3.svg", href: "/especialidades/humor" },
-  { title: "Intervenção em crise", image: "/figmaAssets/frame-5.svg", href: "/especialidades/crise" },
-  { title: "Regulação emocional", image: "/figmaAssets/frame-5-5.svg", href: "/especialidades/regulacao-emocional" },
-  { title: "Adaptação à mudança", image: "/figmaAssets/frame-5-1.svg", href: "/especialidades/mudanca-vida" },
-  { title: "Gestão de stress", image: "/figmaAssets/frame-5-4.svg", href: "/especialidades/stress" },
+  { title: "Perturbações de ansiedade", image: "/images/area-ansiedade.jpg", href: "/especialidades/ansiedade" },
+  { title: "Perturbações de humor", image: "/images/area-perturbarcoes.jpg", href: "/especialidades/humor" },
+  { title: "Intervenção em crise", image: "/images/area-crise.jpg", href: "/especialidades/crise" },
+  { title: "Regulação emocional", image: "/images/area-regulacao.jpg", href: "/especialidades/regulacao-emocional" },
+  { title: "Adaptação à mudança", image: "/images/area-adaptacao.jpg", href: "/especialidades/mudanca-vida" },
+  { title: "Gestão de stress", image: "/images/area-perturbarcoes.svg", href: "/especialidades/stress" },
 ];
 
 export const EspecialidadeDetailPage = (): JSX.Element => {
