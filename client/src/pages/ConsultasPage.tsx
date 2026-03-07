@@ -78,7 +78,7 @@ export const ConsultasPage = (): JSX.Element => {
       <section className="w-full max-w-[1446px] mx-auto px-6 mb-12">
         <div className="relative w-full aspect-[16/9] md:aspect-[1446/584] rounded-[20px] md:rounded-[30px] overflow-hidden shadow-xl">
           <img
-            src="/images/consultas_hero.jpg"
+            src="/images/espaco-hero.jpg"
             alt="Consultas Joana Afonseca"
             className="absolute inset-0 w-full h-full object-cover"
             fetchpriority="high"
