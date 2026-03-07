@@ -22,6 +22,10 @@
   --animate-spin: spin 1s linear infinite;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .animate-fade-in {
   animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
 }
