@@ -62,34 +62,34 @@ export const Footer = () => {
 
             {/* Navegação */}
             <div className="flex flex-col gap-5 md:pt-[110px]">
-              <p className="text-[#B84C32] font-bold [font-family:'Old_Standard_TT',serif] text-[14px] leading-tight">
+              <p className="text-[#B84C32] font-bold [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
                 Navegação
               </p>
               <ul className="flex flex-col gap-1 [font-family:'Literata',serif]">
-                <li><Link href="/espaco" className="text-[#1E1E1E] text-[12px] hover:text-[#B84C32] transition-colors">Espaço</Link></li>
-                <li><Link href="/sobre" className="text-[#1E1E1E] text-[12px] hover:text-[#B84C32] transition-colors">Sobre Mim</Link></li>
-                <li><Link href="/especialidades" className="text-[#1E1E1E] text-[12px] hover:text-[#B84C32] transition-colors">Especialidades</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[12px] hover:text-[#B84C32] transition-colors">Consultas</Link></li>
+                <li><Link href="/espaco" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Espaço</Link></li>
+                <li><Link href="/sobre" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Sobre Mim</Link></li>
+                <li><Link href="/especialidades" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Especialidades</Link></li>
+                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Consultas</Link></li>
               </ul>
             </div>
 
             {/* Serviços */}
             <div className="flex flex-col gap-5 md:pt-[110px]">
-              <p className="text-[#B84C32] font-bold [font-family:'Old_Standard_TT',serif] text-[14px] leading-tight">
+              <p className="text-[#B84C32] font-bold [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
                 Serviços
               </p>
               <ul className="flex flex-col gap-1 [font-family:'Literata',serif]">
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[12px] hover:text-[#B84C32] transition-colors">Avaliação Psicológica</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[12px] hover:text-[#B84C32] transition-colors">Apoio Psicoterapêutico</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[12px] hover:text-[#B84C32] transition-colors">Aconselhamento Parental</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[12px] hover:text-[#B84C32] transition-colors">Apoio Psicopedagógico</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[12px] hover:text-[#B84C32] transition-colors">Workshops e Formações</Link></li>
+                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Avaliação Psicológica</Link></li>
+                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicoterapêutico</Link></li>
+                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Aconselhamento Parental</Link></li>
+                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicopedagógico</Link></li>
+                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Workshops e Formações</Link></li>
               </ul>
             </div>
 
             {/* Contacto */}
             <div className="flex flex-col gap-5 md:pt-[110px]">
-              <p className="text-[#B84C32] font-bold [font-family:'Old_Standard_TT',serif] text-[14px] leading-tight">
+              <p className="text-[#B84C32] font-bold [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
                 Contacto
               </p>
               <div className="flex flex-col gap-3 [font-family:'Literata',serif]">
