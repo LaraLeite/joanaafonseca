@@ -23,7 +23,7 @@ export const SobrePage = (): JSX.Element => {
             loading="lazy"
           />
           <div className="absolute inset-0 bg-black/10 flex items-center justify-end p-8 md:p-20">
-            <blockquote className="max-w-md text-right">
+            <blockquote className="max-w-sm text-center">
                <p className="[font-family:'Literata',Helvetica] italic text-white text-xl md:text-2xl leading-relaxed">
                 "Os únicos limites da vida são aqueles que estabelecemos."
               </p>
