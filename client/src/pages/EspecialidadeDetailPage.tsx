@@ -165,20 +165,23 @@ export const EspecialidadeDetailPage = (): JSX.Element => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {others.map((item, i) => (
               <FadeUp key={item.href} className="flex flex-col gap-5" delay={i * 0.1}>
-                <div className="relative aspect-[4/3] rounded-[20px] overflow-hidden shadow-md">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="absolute inset-0 w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </div>
+                <Link href={item.href} onClick={() => window.scrollTo(0, 0)}>
+                  <div className="relative aspect-[4/3] rounded-[20px] overflow-hidden shadow-md cursor-pointer">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="absolute inset-0 w-full h-full object-cover hover:opacity-90 transition-opacity"
+                      loading="lazy"
+                    />
+                  </div>
+                </Link>
                 <div className="flex flex-col gap-3">
                   <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-xl leading-tight">
                     {item.title}
                   </h3>
                   <Link
                     href={item.href}
+                    onClick={() => window.scrollTo(0, 0)}
                     className="btn-pill inline-block w-fit px-6 py-2.5 rounded-[50px] border border-[#C79DCE] [font-family:'Literata',Helvetica] font-medium text-[#893420] text-base hover:bg-[#B84C32] hover:text-white hover:border-[#B84C32] transition-all duration-200"
                   >
                     Saiba mais
