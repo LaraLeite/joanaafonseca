@@ -134,7 +134,7 @@ export const ConsultasPage = (): JSX.Element => {
                 <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#fafafa] text-4xl md:text-5xl leading-tight">
                   Presencial
                 </h3>
-                <p className="[font-family:'Literata',Helvetica] font-normal text-[#fafafa] texto-sl leading-[30px] max-w-[331px]">
+                <p className="[font-family:'Literata',Helvetica] font-normal text-[#fafafa] texto-sl leading-[30px] max-w-[290px]">
                   No consultório, num espaço tranquilo e reservado.
                 </p>
               </div>
@@ -153,7 +153,7 @@ export const ConsultasPage = (): JSX.Element => {
                 <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#fafafa] text-4xl md:text-5xl leading-tight">
                   Online
                 </h3>
-                <p className="[font-family:'Literata',Helvetica] font-normal text-[#fafafa] texto-sl leading-[30px]">
+                <p className="[font-family:'Literata',Helvetica] font-normal text-[#fafafa] texto-sl leading-[30px] max-w-[331px]">
                   Através de videochamada, com a mesma qualidade e confidencialidade.
                 </p>
               </div>
