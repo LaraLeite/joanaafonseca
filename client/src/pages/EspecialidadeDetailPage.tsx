@@ -13,7 +13,7 @@ const specialtiesData: Record<string, {
   "ansiedade": {
     title: "Perturbações de ansiedade",
     image: "/images/area-ansiedade.jpg",
-    cardImage: "/figmaAssets/frame-5-2.svg",
+    cardImage: "/images/area-ansiedade-banner.jpg",
     intro: "A ansiedade não é uma doença no sentido em que não se pode constituir por si só como um diagnóstico.",
     paragraphs: [
       "O medo é uma emoção adaptativa, que funciona como um estímulo e tem um efeito protetor. É normal sentirmo-nos ansiosos perante um novo desafio, um acontecimento importante ou uma situação de incerteza. No entanto, quando a ansiedade se torna excessiva, persistente e desproporcional ao contexto, pode transformar-se num obstáculo significativo à vida quotidiana.",
@@ -24,7 +24,7 @@ const specialtiesData: Record<string, {
   "humor": {
     title: "Perturbações de humor",
     image: "/images/area-humor.jpg",
-    cardImage: "/figmaAssets/frame-5-3.svg",
+    cardImage: "/images/area-humor.jpg",
     intro: "As perturbações de humor afetam significativamente o estado emocional, a energia e a qualidade de vida de quem as vive.",
     paragraphs: [
       "Tristeza profunda e persistente, perda de interesse em atividades anteriormente prazerosas, alterações no sono e no apetite, fadiga constante e dificuldade de concentração são alguns dos sinais que podem indicar a presença de uma perturbação depressiva. Por outro lado, estados de euforia intensa, impulsividade e necessidade reduzida de dormir podem estar associados a perturbações bipolares.",
@@ -35,7 +35,7 @@ const specialtiesData: Record<string, {
   "crise": {
     title: "Intervenção em crise",
     image: "/images/area-crise.jpg",
-    cardImage: "/figmaAssets/frame-5.svg",
+    cardImage: "/images/area-crise.jpg",
     intro: "Há momentos na vida em que o peso do que acontece excede os recursos de que dispomos para o enfrentar.",
     paragraphs: [
       "Uma perda súbita, um diagnóstico grave, uma situação de violência, um acidente ou qualquer acontecimento perturbador pode desencadear uma crise emocional. Nesses momentos, é comum sentir confusão, desespero, entorpecimento ou uma sensação de que o chão desapareceu sob os pés.",
@@ -46,7 +46,7 @@ const specialtiesData: Record<string, {
   "regulacao-emocional": {
     title: "Regulação emocional",
     image: "/images/area-emocional.jpg",
-    cardImage: "/figmaAssets/frame-5-5.svg",
+    cardImage: "/images/area-emocional-banner.jpg",
     intro: "As emoções são uma parte essencial da nossa experiência humana — não devem ser suprimidas, mas compreendidas e acolhidas.",
     paragraphs: [
       "A regulação emocional refere-se à capacidade de reconhecer, compreender e gerir as nossas emoções de forma adaptativa. Quando esta capacidade está comprometida, podemos reagir de formas que nos prejudicam a nós e às nossas relações: explosões de raiva, isolamento, comportamentos impulsivos ou um estado de entorpecimento emocional constante.",
@@ -56,8 +56,8 @@ const specialtiesData: Record<string, {
   },
   "mudanca-vida": {
     title: "Adaptação à mudança e fases do ciclo de vida",
-    image: "/images/sobre-mim.jpg",
-    cardImage: "/figmaAssets/frame-5-1.svg",
+    image: "/images/area-mudanca-banner.jpg",
+    cardImage: "/images/area-mudanca-banner.jpg",
     intro: "A vida é feita de ciclos, transições e momentos de passagem que exigem adaptação e novos recursos internos.",
     paragraphs: [
       "A adolescência, o início da vida adulta, a entrada na parentalidade, a reforma, o luto ou o fim de uma relação são apenas alguns exemplos de fases que, mesmo sendo esperadas, podem gerar sofrimento, desorientação e dificuldade em encontrar um novo equilíbrio.",
@@ -68,7 +68,7 @@ const specialtiesData: Record<string, {
   "stress": {
     title: "Gestão de stress",
     image: "/images/area-stress.jpg",
-    cardImage: "/figmaAssets/frame-5-4.svg",
+    cardImage: "/images/area-stress.jpg",
     intro: "O stress faz parte da vida, mas quando se torna crónico e avassalador, compromete a saúde, as relações e a qualidade de vida.",
     paragraphs: [
       "Sinais como irritabilidade constante, dificuldade em desligar, insónia, dores físicas sem causa aparente, falta de concentração ou sensação de estar sempre a correr podem indicar que os níveis de stress ultrapassaram o que o organismo consegue suportar de forma saudável.",
