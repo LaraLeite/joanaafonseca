@@ -25,7 +25,7 @@ export const Footer = () => {
                   onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                 />
               </Link>
-              <p className="text-[#502f27] text-[0.75rem] leading-relaxed [font-family:'Literata',serif]">
+              <p className="text-[#502f27] text-[14px] leading-relaxed [font-family:'Literata',serif]">
                 Psicóloga Clínica e da Saúde<br />
                 OPP Nº 21653
               </p>
@@ -62,7 +62,7 @@ export const Footer = () => {
 
             {/* Navegação */}
             <div className="flex flex-col gap-5 md:pt-[110px]">
-              <p className="text-[#B84C32] [font-family:'Old_Standard_TT',serif] text-[14px] leading-tight">
+              <p className="text-[#B84C32] [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
                 Navegação
               </p>
               <ul className="flex flex-col gap-1 [font-family:'Literata',serif]">
