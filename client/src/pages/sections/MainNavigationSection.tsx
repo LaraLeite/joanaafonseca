@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import {
   NavigationMenu,
@@ -23,6 +23,7 @@ const rightNavItems = [
 
 export const MainNavigationSection = (): JSX.Element => {
   const [isOpen, setIsOpen] = useState(false);
+  const [location] = useLocation();
 
   return (
     <nav className="flex w-full items-center justify-between px-6 py-6 lg:py-12 relative z-50">
@@ -36,7 +37,7 @@ export const MainNavigationSection = (): JSX.Element => {
                 <NavigationMenuLink asChild>
                   <Link
                     href={item.href}
-                    className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textoparagraph text-lg tracking-[0] leading-[30px] cursor-pointer relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-[#B84C32] after:transition-all after:duration-300 hover:text-[#B84C32] hover:after:w-full transition-colors"
+                    className={`[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-lg tracking-[0] leading-[30px] cursor-pointer relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:bg-[#B84C32] after:transition-all after:duration-300 hover:text-[#B84C32] hover:after:w-full transition-colors ${location === item.href ? 'text-[#B84C32] after:w-full' : 'text-textoparagraph after:w-0'}`}
                   >
                     {item.label}
                   </Link>
@@ -68,7 +69,7 @@ export const MainNavigationSection = (): JSX.Element => {
                 <NavigationMenuLink asChild>
                   <Link
                     href={item.href}
-                    className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textoparagraph text-lg tracking-[0] leading-[30px] cursor-pointer relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-[#B84C32] after:transition-all after:duration-300 hover:text-[#B84C32] hover:after:w-full transition-colors"
+                    className={`[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-lg tracking-[0] leading-[30px] cursor-pointer relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:bg-[#B84C32] after:transition-all after:duration-300 hover:text-[#B84C32] hover:after:w-full transition-colors ${location === item.href ? 'text-[#B84C32] after:w-full' : 'text-textoparagraph after:w-0'}`}
                   >
                     {item.label}
                   </Link>
