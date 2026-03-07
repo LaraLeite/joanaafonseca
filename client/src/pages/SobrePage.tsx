@@ -78,15 +78,15 @@ export const SobrePage = (): JSX.Element => {
             </FadeUp>
             <ul className="texto-sl flex flex-col gap-4 [font-family:'Literata',Helvetica] text-white">
               <FadeUp as="li" className="flex gap-3 items-start" delay={0.2}>
-                <span className="text-white/70 mt-1">•</span>
+                <img src="/figmaAssets/icons/plant.png" alt="" className="w-5 h-5 mt-1 shrink-0" />
                 <span>Ajudar cada pessoa a reencontrar equilíbrio</span>
               </FadeUp>
               <FadeUp as="li" className="flex gap-3 items-start" delay={0.3}>
-                <span className="text-white/70 mt-1">•</span>
-                <span>A desconstruir recursos internos</span>
+                <img src="/figmaAssets/icons/plant.png" alt="" className="w-5 h-5 mt-1 shrink-0" />
+                <span>A desenvolver recursos internos</span>
               </FadeUp>
               <FadeUp as="li" className="flex gap-3 items-start" delay={0.4}>
-                <span className="text-white/70 mt-1">•</span>
+                <img src="/figmaAssets/icons/plant.png" alt="" className="w-5 h-5 mt-1 shrink-0" />
                 <span>A crescer com as mudanças da vida</span>
               </FadeUp>
             </ul>
