@@ -1,7 +1,9 @@
 import { MainNavigationSection } from "./sections/MainNavigationSection";
 import { Footer } from "@/components/Footer";
 import { FadeUp } from "@/components/FadeUp";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
+import { useEffect } from "react";
+
 
 const horariosCards = [
   {
@@ -70,7 +72,19 @@ const services = [
 ];
 
 export const ConsultasPage = (): JSX.Element => {
+  const [location] = useLocation();
+
+  useEffect(() => {
+    if (window.location.hash === "#servicos") {
+      setTimeout(() => {
+        const el = document.getElementById("servicos");
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
+  }, [location]);
+
   return (
+    ...
     <main className="flex flex-col w-full items-center min-h-screen bg-bg-lara">
       <MainNavigationSection />
 
