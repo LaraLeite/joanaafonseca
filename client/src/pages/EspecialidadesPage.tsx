@@ -7,37 +7,37 @@ const specialtyItems = [
   {
     title: "Perturbações de ansiedade",
     description: "Quando o medo e a preocupação se tornam constantes e limitam a vida quotidiana.",
-    image: "/figmaAssets/frame-5-2.svg",
-    href: "/especialidades/ansiedade"
+    image: "/images/area-ansiedade.jpg",
+    href: "/especialidades/ansiedade.jpg"
   },
   {
     title: "Perturbações de humor",
     description: "Tristeza profunda, perda de energia ou euforia excessiva que afetam o dia a dia.",
-    image: "/figmaAssets/frame-5-3.svg",
+    image: "/images/area-perturbarcoes.jpg",
     href: "/especialidades/humor"
   },
   {
     title: "Intervenção em crise",
     description: "Apoio psicológico imediato em situações de choque, perda, violência, doença ou acontecimentos traumáticos.",
-    image: "/figmaAssets/frame-5.svg",
+    image: "/images/area-crise.jpg",
     href: "/especialidades/crise"
   },
   {
     title: "Regulação emocional",
     description: "Aprender a reconhecer, aceitar e gerir emoções de forma saudável.",
-    image: "/figmaAssets/frame-5-5.svg",
+    image: "/images/area-regulacao.jpg",
     href: "/especialidades/regulacao-emocional"
   },
   {
     title: "Adaptação à mudança e fases do ciclo de vida",
     description: "Apoio em fases desafiantes da vida, como adolescência, parentalidade, divórcio ou luto.",
-    image: "/figmaAssets/frame-5-1.svg",
+    image: "/images/area-adaptacao.jpg",
     href: "/especialidades/mudanca-vida"
   },
   {
     title: "Gestão de stress",
     description: "Ferramentas práticas para lidar com a pressão, prevenir o burnout e recuperar qualidade de vida.",
-    image: "/figmaAssets/frame-5-4.svg",
+    image: "/images/area-stress.jpg",
     href: "/especialidades/stress"
   },
 ];
