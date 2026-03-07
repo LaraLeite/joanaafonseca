@@ -3,37 +3,37 @@ import { FadeUp } from "@/components/FadeUp";
 
 const interventionAreas = [
   {
-    image: "/figmaAssets/frame-5-2.svg",
+    image: "/images/area-ansiedade.jpg",
     title: "Perturbações de ansiedade",
     description: "Quando o medo e a preocupação se tornam constantes e limitam a vida quotidiana.",
     slug: "ansiedade",
   },
   {
-    image: "/figmaAssets/frame-5-3.svg",
+    image: "/images/area-perturbarcoes.jpg",
     title: "Perturbações de humor",
     description: "Tristeza profunda, perda de energia ou euforia excessiva que afetam o dia a dia.",
     slug: "humor",
   },
   {
-    image: "/figmaAssets/frame-5.svg",
+    image: "/images/area-crise.jpg",
     title: "Intervenção em crise",
     description: "Apoio psicológico imediato em situações de choque, perda, violência, doença ou acontecimentos traumáticos.",
     slug: "crise",
   },
   {
-    image: "/figmaAssets/frame-5-5.svg",
+    image: "/images/area-regulacao.jpg",
     title: "Regulação emocional",
     description: "Aprender a reconhecer, aceitar e gerir emoções de forma saudável.",
     slug: "regulacao-emocional",
   },
   {
-    image: "/figmaAssets/frame-5-1.svg",
+    image: "/images/area-adaptacao.jpg",
     title: "Adaptação à mudança e fases do ciclo de vida",
     description: "Apoio em fases desafiantes da vida, como adolescência, parentalidade, divórcio ou luto.",
     slug: "mudanca-vida",
   },
   {
-    image: "/figmaAssets/frame-5-4.svg",
+    image: "/images/area-stress.jpg",
     title: "Gestão de stress",
     description: "Ferramentas práticas para lidar com a pressão, prevenir o burnout e recuperar qualidade de vida.",
     slug: "stress",
