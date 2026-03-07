@@ -138,7 +138,7 @@ export const Footer = () => {
               <span>·</span>
               <Link href="/politica" className="underline hover:text-[#B84C32] transition-colors">Política</Link>
               <span>·</span>
-              <span>Copyright © 2025 · joanaafonseca</span>
+              <span>Copyright © 2026 · joanaafonseca</span>
             </div>
           </div>
 
