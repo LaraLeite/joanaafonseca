@@ -73,7 +73,7 @@ export const SobrePage = (): JSX.Element => {
             <FadeUp as="h2" className="[font-family:'Old_Standard_TT',Helvetica] italic text-white text-3xl md:text-4xl leading-tight">
               Percurso académico e profissional
             </FadeUp>
-            <FadeUp as="p" className="texto-sl [font-family:'Literata',Helvetica] font-medium text-white" delay={0.1}>
+            <FadeUp as="p" className="texto-sl [font-family:'Literata',Helvetica] font-bold text-white" delay={0.1}>
               Mais do que uma profissão, a Psicologia é para mim uma paixão e uma missão:
             </FadeUp>
             <ul className="texto-sl flex flex-col gap-4 [font-family:'Literata',Helvetica] text-white">
