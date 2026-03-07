@@ -102,7 +102,7 @@ export const ConsultasPage = (): JSX.Element => {
       <section className="relative w-full overflow-hidden bg-[#f0e2dd] py-16 md:py-20 px-6">
         {/* Decorative background */}
         <img
-          src="/figmaAssets/efeitos-bg-consultas.png"
+          src="/figmaAssets/efeitos-bg-consultas.svg"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
