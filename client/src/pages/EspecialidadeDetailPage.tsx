@@ -100,7 +100,7 @@ export const EspecialidadeDetailPage = (): JSX.Element => {
       {/* Bloco principal: nav + conteúdo + CTA — fundo #F5EBE5 com flor-caso.svg */}
       <div className="relative w-full overflow-hidden bg-[#F5EBE5] flex flex-col items-center">
         <img
-          src="/figmaAssets/flor-caso.svg"
+          src="/figmaAssets/flor-caso.png"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover object-bottom pointer-events-none select-none"
