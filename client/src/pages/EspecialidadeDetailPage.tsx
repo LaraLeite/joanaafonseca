@@ -9,74 +9,111 @@ const specialtiesData: Record<string, {
   cardImage: string;
   intro: string;
   paragraphs: string[];
+  symptoms?: string[];
+  situations?: string[];
 }> = {
   "ansiedade": {
     title: "Perturbações de ansiedade",
     image: "/images/area-ansiedade.jpg",
-    cardImage: "/images/area-ansiedade-banner.jpg",
-    intro: "A ansiedade não é uma doença no sentido em que não se pode constituir por si só como um diagnóstico.",
+    cardImage: "/figmaAssets/frame-5-2.svg",
+    intro: "A ansiedade não é uma doença, no sentido em que não se pode constituir por si só como um diagnóstico.",
     paragraphs: [
-      "O medo é uma emoção adaptativa, que funciona como um estímulo e tem um efeito protetor. É normal sentirmo-nos ansiosos perante um novo desafio, um acontecimento importante ou uma situação de incerteza. No entanto, quando a ansiedade se torna excessiva, persistente e desproporcional ao contexto, pode transformar-se num obstáculo significativo à vida quotidiana.",
-      "As perturbações de ansiedade incluem um conjunto de condições clínicas como a perturbação de ansiedade generalizada, a perturbação de pânico, as fobias específicas, a perturbação de ansiedade social, entre outras. Cada uma tem características próprias, mas todas partilham uma resposta de medo e apreensão que pode limitar a liberdade e o bem-estar da pessoa.",
-      "A intervenção psicológica permite compreender os mecanismos da ansiedade, identificar os pensamentos e comportamentos que a alimentam e desenvolver estratégias eficazes para a regular. Com acompanhamento adequado, é possível retomar uma vida mais tranquila, presente e plena."
-    ]
+      "O medo é uma emoção adaptativa, que funciona como um estímulo e tem um efeito protetor. É normal sentirmo-nos ansiosos perante um novo desafio, é essa ansiedade que nos torna mais alerta para avaliar a \"ameaça\" e conseguir agir rapidamente. É esse sentimento que nos faz ultrapassar um desafio, procurar a solução, que nos torna mais atentos, ou que motiva a recusa de uma situação potencialmente perigosa.",
+      "É quando esse medo se instala, exacerbado, prolongando-se além do que seria normal para cumprir essa função adaptativa, que surgem diferentes tipos de problemas, as denominadas perturbações de ansiedade. As perturbações de ansiedade diagnosticadas normalmente surgem na infância e vão evoluindo até à idade adulta. Quando se mantêm, isso significa que a pessoa não está a conseguir gerir o medo.",
+      "A ansiedade é uma reação normal ao stress do dia-a-dia. Apenas se pode falar em perturbações de ansiedade quando existe um medo e ansiedade desproporcionado, que perduram há pelo menos seis meses e que têm impacto na vida quotidiana. Existem diversas perturbações de ansiedade, nomeadamente as fobias, os ataques de pânico, a perturbação de ansiedade generalizada, o stress pós-traumático, entre outras.",
+    ],
+    symptoms: [
+      "Taquicardia",
+      "Falta de ar",
+      "Dificuldade em respirar (sensação de sufoco)",
+      "Suores repentinos",
+      "Evitar sítios ou pessoas",
+      "Dificuldades de regulação emocional (agressividade, impulsividade, ataques de pânico, etc.)",
+    ],
   },
   "humor": {
     title: "Perturbações de humor",
     image: "/images/area-humor.jpg",
-    cardImage: "/images/area-humor.jpg",
-    intro: "As perturbações de humor afetam significativamente o estado emocional, a energia e a qualidade de vida de quem as vive.",
+    cardImage: "/figmaAssets/frame-5-3.svg",
+    intro: "Este tipo de perturbação carateriza-se pela predominância do humor triste, perda de interesse e prazer nas atividades habituais, lentidão excessiva, sentimentos de desvalorização pessoal e diminuição das funções cognitivas.",
     paragraphs: [
-      "Tristeza profunda e persistente, perda de interesse em atividades anteriormente prazerosas, alterações no sono e no apetite, fadiga constante e dificuldade de concentração são alguns dos sinais que podem indicar a presença de uma perturbação depressiva. Por outro lado, estados de euforia intensa, impulsividade e necessidade reduzida de dormir podem estar associados a perturbações bipolares.",
-      "As perturbações de humor não se tratam de fraqueza ou falta de vontade. São condições clínicas reconhecidas que merecem atenção, compreensão e cuidado especializado. Muitas pessoas vivem anos sem reconhecer o que sentem ou sem saber que existe ajuda disponível.",
-      "A psicoterapia oferece um espaço seguro para explorar o que está na origem do sofrimento emocional, compreender os padrões que mantêm a perturbação e construir recursos internos e externos que promovam maior equilíbrio e bem-estar. A recuperação é possível e o caminho começa por pedir ajuda."
-    ]
+      "Um transtorno do humor é diagnosticado quando a tristeza ou euforia é excessivamente intensa, é acompanhada por determinados sintomas típicos e compromete a capacidade funcional física e social e no trabalho.",
+      "As perturbações afetivas, também conhecidas como perturbações do humor, trazem impacto negativo às vivências pessoais e têm como caraterística central um aumento na intensidade com que as emoções são experienciadas.",
+      "A tristeza é uma resposta natural em situações de perda e desilusão, fazendo parte das experiências quotidianas. Contudo, estas enquadram-se nas perturbações do humor quando a tristeza ou o seu oposto são excessivamente intensas, têm maior durabilidade ao longo do tempo, são acompanhadas por outros sintomas e têm impacto no quotidiano, prejudicando o normal funcionamento da pessoa no trabalho e nos restantes contextos de vida.",
+    ],
   },
   "crise": {
     title: "Intervenção em crise",
     image: "/images/area-crise.jpg",
-    cardImage: "/images/area-crise.jpg",
-    intro: "Há momentos na vida em que o peso do que acontece excede os recursos de que dispomos para o enfrentar.",
+    cardImage: "/figmaAssets/frame-5.svg",
+    intro: "Ao Psicólogo compete assegurar os cuidados psicológicos à população vitimada e aos seus familiares, bem como às equipas de emergência.",
     paragraphs: [
-      "Uma perda súbita, um diagnóstico grave, uma situação de violência, um acidente ou qualquer acontecimento perturbador pode desencadear uma crise emocional. Nesses momentos, é comum sentir confusão, desespero, entorpecimento ou uma sensação de que o chão desapareceu sob os pés.",
-      "A intervenção em crise tem como objetivo proporcionar apoio imediato, estabilizar emocionalmente e ajudar a encontrar formas de atravessar o momento difícil com maior segurança. Não se trata de apagar o que aconteceu, mas de encontrar forças para continuar.",
-      "Com acompanhamento psicológico especializado, é possível processar o que foi vivido, integrar a experiência e retomar gradualmente o equilíbrio e a funcionalidade. A crise, quando atravessada com suporte, pode também tornar-se um ponto de viragem para um maior autoconhecimento e resiliência."
-    ]
+      "Os objetivos passam por promover o desenvolvimento de estratégias ativas de adaptação em situações de crise, minimizar o impacto negativo do evento, restaurar o nível funcional e prevenir a exacerbação de sintomatologia psicológica.",
+      "Na prossecução destes objetivos, o Psicólogo procede à avaliação, estabilização emocional, aconselhamento e referenciação, propõe meios de emergência médica adequados a cada situação, aconselha os profissionais sobre como proceder em contextos de crise psicológica e diligencia a articulação com outras entidades, quando tal se revele benéfico e necessário.",
+    ],
+    situations: [
+      "Tentativas e Risco de Suicídio",
+      "Episódios Depressivos",
+      "Crises de Ansiedade e Ataque de Pânico",
+      "Crises Psicóticas ou Episódios Dissociativos",
+      "Aconselhamento na Notificação de Morte",
+      "Violência Doméstica / Violação / Abuso Sexual",
+      "Situações de Choque Emocional",
+      "Acidentes de Viação",
+      "Emergências Psiquiátricas",
+      "Situações graves que envolvam crianças",
+      "Paragem Cardiorrespiratória inesperada",
+      "Morte Inesperada e/ou Traumática",
+    ],
   },
   "regulacao-emocional": {
     title: "Regulação emocional",
     image: "/images/area-emocional.jpg",
-    cardImage: "/images/area-emocional-banner.jpg",
-    intro: "As emoções são uma parte essencial da nossa experiência humana — não devem ser suprimidas, mas compreendidas e acolhidas.",
+    cardImage: "/figmaAssets/frame-5-5.svg",
+    intro: "Todos nós temos emoções que podem ser agradáveis como a alegria, o amor — ou negativas como medo, raiva, vergonha, culpa e ciúmes. Porém, nem todos conseguem reconhecê-las, nomeá-las e lidar com elas de forma efetiva.",
     paragraphs: [
-      "A regulação emocional refere-se à capacidade de reconhecer, compreender e gerir as nossas emoções de forma adaptativa. Quando esta capacidade está comprometida, podemos reagir de formas que nos prejudicam a nós e às nossas relações: explosões de raiva, isolamento, comportamentos impulsivos ou um estado de entorpecimento emocional constante.",
-      "Muitas pessoas cresceram em ambientes onde as emoções não eram bem-vindas ou não sabiam como expressá-las de forma saudável. Isso pode deixar marcas profundas na forma como nos relacionamos connosco mesmos e com os outros.",
-      "A psicoterapia é um espaço privilegiado para desenvolver competências de regulação emocional: aprender a nomear o que sentimos, a tolerar desconforto emocional sem reagir de forma impulsiva e a criar respostas mais conscientes e equilibradas perante os desafios do quotidiano."
-    ]
+      "As emoções desempenham um importante papel nas nossas vidas, comunicando as nossas necessidades, as frustrações, o que nos entristece ou nos alegra. Identificar estas emoções é fundamental para que possamos realizar as mudanças necessárias em direção a quem ou ao que nos faz mais felizes.",
+      "A regulação emocional é definida como a habilidade de manter, aumentar ou diminuir um ou mais componentes da resposta emocional, incluindo os sentimentos, comportamentos e respostas fisiológicas que constituem as emoções. Refere-se ainda à capacidade de compreender e aceitar a sua experiência emocional de modo a utilizar estratégias saudáveis.",
+      "A desregulação emocional é a inabilidade de processar emoções, intensificando-as ou desativando-as de maneira intensa. Está associada a muitas perturbações psicológicas como depressão major, ansiedade, dependência química e perturbações da personalidade.",
+    ],
   },
   "mudanca-vida": {
     title: "Adaptação à mudança e fases do ciclo de vida",
-    image: "/images/area-mudanca-banner.jpg",
-    cardImage: "/images/area-mudanca-banner.jpg",
-    intro: "A vida é feita de ciclos, transições e momentos de passagem que exigem adaptação e novos recursos internos.",
+    image: "/images/sobre-mim.jpg",
+    cardImage: "/figmaAssets/frame-5-1.svg",
+    intro: "Ao longo do desenvolvimento de uma família, esta passa por fases que exigirão mudanças para adaptação dessa nova fase e requer tarefas específicas para cada uma delas.",
     paragraphs: [
-      "A adolescência, o início da vida adulta, a entrada na parentalidade, a reforma, o luto ou o fim de uma relação são apenas alguns exemplos de fases que, mesmo sendo esperadas, podem gerar sofrimento, desorientação e dificuldade em encontrar um novo equilíbrio.",
-      "Noutras vezes, são mudanças imprevistas — uma perda de emprego, uma mudança de país, o diagnóstico de uma doença — que nos obrigam a reorganizar a nossa vida de forma não planeada. Em qualquer caso, o processo de adaptação pode ser longo e exigente.",
-      "O acompanhamento psicológico nestes momentos oferece um espaço de reflexão, contenção e apoio para atravessar a transição com mais clareza e serenidade. Com suporte adequado, é possível transformar a mudança numa oportunidade de crescimento e renovação."
-    ]
+      "Existem situações como o divórcio, recasamento, adolescência, doenças crónicas, morte inesperada e tantas outras que são geradoras de stress. O sofrimento familiar é comum e esperado nesses momentos — são momentos marcados por crises emocionais inevitáveis, mas é possível encará-los de uma maneira que possibilite um desenvolvimento familiar saudável.",
+      "A necessidade de adaptação, de incluir novos hábitos é uma oportunidade de começar novamente, de reconhecer competências, de se posicionar e responsabilizar pelo seu futuro, prosperando com as experiências.",
+      "A mudança de uma fase para outra pode gerar ansiedades, conflitos e disfunção das relações familiares. Para minimizar o impacto, esse ajustamento vai exigir flexibilidade, um diálogo saudável que possibilite negociações e colaboração dos membros familiares. A terapia é uma ação focada nas relações estabelecidas pelo sistema familiar, com o objetivo de promover mudanças e ampliar a compreensão dos conflitos vivenciados.",
+    ],
   },
   "stress": {
     title: "Gestão de stress",
     image: "/images/area-stress.jpg",
-    cardImage: "/images/area-stress.jpg",
-    intro: "O stress faz parte da vida, mas quando se torna crónico e avassalador, compromete a saúde, as relações e a qualidade de vida.",
+    cardImage: "/figmaAssets/frame-5-4.svg",
+    intro: "Entende-se por Stress a resposta fisiológica e comportamental a determinado acontecimento, levando a pessoa a sentir-se ameaçada e interferindo com o seu equilíbrio.",
     paragraphs: [
-      "Sinais como irritabilidade constante, dificuldade em desligar, insónia, dores físicas sem causa aparente, falta de concentração ou sensação de estar sempre a correr podem indicar que os níveis de stress ultrapassaram o que o organismo consegue suportar de forma saudável.",
-      "O burnout, cada vez mais prevalente, é uma das consequências mais sérias do stress crónico. Caracteriza-se por um esgotamento profundo — físico, emocional e mental — frequentemente associado ao contexto profissional, mas que pode surgir em qualquer área da vida.",
-      "A intervenção psicológica na gestão de stress passa por identificar os fatores que o alimentam, desenvolver estratégias de coping eficazes, recuperar o equilíbrio entre exigências e recursos e aprender a criar espaço para o descanso, o prazer e a presença. É possível viver com mais leveza."
-    ]
-  }
+      "Perante situações de ameaça de perigo, ativamos naturalmente dois tipos de resposta automática denominadas como \"luta ou fuga\" ou de \"congelamento\". Este é um processo natural que tem caraterísticas adaptativas, no entanto, em alguns casos, a experiência de stress prolonga-se por períodos longos de tempo, podendo tornar-se doloroso.",
+      "O stress é um fator determinante da qualidade de vida e uma das principais causas de doença, bem como um dos principais promotores de Burnout, com implicações diretas quer na saúde dos indivíduos como nos seus resultados profissionais.",
+      "Por norma, a pessoa que sofre com stress sente que não consegue controlar o seu tempo ou gerir todas as tarefas que tem a seu cargo, causando impacto quer na sua vida pessoal, como no desempenho profissional.",
+    ],
+    symptoms: [
+      "Diminuição da produtividade",
+      "Apatia",
+      "Perturbação de sono (sensação de acordar desgastado)",
+      "Cansaço constante",
+      "Dificuldades de concentração e de memória",
+      "Irritabilidade constante",
+      "Dores de cabeça",
+      "Tensão e rigidez muscular",
+      "Taquicardia",
+      "Tonturas",
+      "Insónia",
+    ],
+  },
 };
+
 
 const allSpecialties = [
   { title: "Perturbações de ansiedade", description: "Quando o medo e a preocupação se tornam constantes e limitam a vida quotidiana.", image: "/images/area-ansiedade.jpg", href: "/especialidades/ansiedade" },
@@ -134,6 +171,32 @@ export const EspecialidadeDetailPage = (): JSX.Element => {
                 {p}
               </FadeUp>
             ))}
+            
+            {data.symptoms && (
+              <FadeUp as="div" className="flex flex-col gap-3" delay={0.3}>
+                <p className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-xl">Sinais de alerta</p>
+                <ul className="flex flex-col gap-2">
+                  {data.symptoms.map((s, i) => (
+                    <li key={i} className="flex gap-2 items-start [font-family:'Literata',Helvetica] text-textoparagraph texto-sl">
+                      <span className="shrink-0 mt-1 text-[#B84C32]">•</span>{s}
+                    </li>
+                  ))}
+                </ul>
+              </FadeUp>
+            )}
+            
+            {data.situations && (
+              <FadeUp as="div" className="flex flex-col gap-3" delay={0.3}>
+                <p className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-xl">Situações de intervenção</p>
+                <ul className="flex flex-col gap-2">
+                  {data.situations.map((s, i) => (
+                    <li key={i} className="flex gap-2 items-start [font-family:'Literata',Helvetica] text-textoparagraph texto-sl">
+                      <span className="shrink-0 mt-1 text-[#B84C32]">•</span>{s}
+                    </li>
+                  ))}
+                </ul>
+              </FadeUp>
+            )}
           </section>
 
           {/* CTA */}
