@@ -48,7 +48,7 @@ export const SobrePage = (): JSX.Element => {
           </div>
         </FadeUp>
 
-        <div className="texto-sl flex flex-col gap-6 [font-family:'Literata',Helvetica] text-textoparagraph text-justify">
+        <div className="texto-sl flex flex-col gap-6 [font-family:'Literata',Helvetica] text-textoparagraph text-left">
           <FadeUp as="p" delay={0.1}>
             Sou uma profissional com um perfil integrativo, onde procuro adequar modelos teóricos e ferramentas de trabalho, no sentido de desenvolver uma intervenção adaptada à individualidade de cada pessoa e dos seus objetivos face à mudança.
           </FadeUp>
