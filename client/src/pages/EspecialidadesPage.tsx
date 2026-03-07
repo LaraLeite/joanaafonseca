@@ -52,7 +52,7 @@ export const EspecialidadesPage = (): JSX.Element => {
         <h1 className="[font-family:'Old_Standard_TT',Helvetica] italic text-textotitle text-4xl md:text-5xl tracking-tight">
           Especialidades
         </h1>
-        <p className="[font-family:'Literata',Helvetica] text-textoparagraph text-sl md:text-xl max-w-2xl mx-auto leading-relaxed opacity-80">
+        <p className="[font-family:'Literata',Helvetica] text-textoparagraph text-sl max-w-2xl mx-auto leading-relaxed opacity-80">
           Compreenda e cuide as perturbações mais comuns que afetam o bem-estar psicológico.
         </p>
       </section>
