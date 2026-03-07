@@ -126,7 +126,7 @@ export const SobrePage = (): JSX.Element => {
               { year: "2015", items: ["Mestrado em Psicologia Clínica e da Saúde pela Universidade Portucalense Infante D. Henrique (Porto)"] },
               { year: "2012", items: ["Certificado de Competências Pedagógicas - CCP n.º F597040/2012", "Licenciatura em Psicologia pela Universidade Portucalense Infante D. Henrique (Porto)"] }
             ].map((entry, i, arr) => (
-              <FadeUp key={i} as="div" className="relative flex flex-col gap-3 pb-6" delay={i * 0.1}>
+              <FadeUp key={i} as="div" className="relative flex flex-col gap-3 pb-3" delay={i * 0.1}>
                 <div className="absolute left-[5px] top-[28px] bottom-[-22px] w-0 border-l border-dashed border-[#C79DCE]" />
                 <div className="flex items-center gap-3">
                   <span className="w-3 h-3 rounded-full bg-[#C79DCE] flex-shrink-0 relative z-10" />
@@ -142,7 +142,7 @@ export const SobrePage = (): JSX.Element => {
                     </FadeUp>
                   ))}
                 </div>
-                <div className="ml-6 border-b border-[#ABABAB]" />
+                <div className="ml-6 border-b border-[#E9DAD6]" />
               </FadeUp>
             ))}
           </div>
