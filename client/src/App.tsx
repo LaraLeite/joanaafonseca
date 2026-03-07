@@ -12,6 +12,8 @@ import { EspecialidadesPage } from "@/pages/EspecialidadesPage";
 import { EspecialidadeDetailPage } from "@/pages/EspecialidadeDetailPage";
 import { ConsultasPage } from "@/pages/ConsultasPage";
 import { ContactoPage } from "@/pages/ContactoPage";
+import { TermosPage } from "@/pages/TermosPage";
+import { PoliticaPage } from "@/pages/PoliticaPage";
 
 function Router() {
   return (
@@ -24,6 +26,8 @@ function Router() {
       <Route path="/especialidades/:slug" component={EspecialidadeDetailPage} />
       <Route path="/consultas" component={ConsultasPage} />
       <Route path="/contacto" component={ContactoPage} />
+      <Route path="/termos" component={TermosPage} />
+      <Route path="/politica" component={PoliticaPage} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
