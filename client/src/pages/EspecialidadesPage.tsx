@@ -87,7 +87,6 @@ export const EspecialidadesPage = (): JSX.Element => {
                 </Link>
               </div>
             </div>
-            </div>
           ))}
         </div>
       </section>
