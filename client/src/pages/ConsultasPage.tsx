@@ -217,7 +217,7 @@ export const ConsultasPage = (): JSX.Element => {
       </section>
 
       {/* Serviços */}
-      <section className="w-full bg-bg-lara px-6 pb-24">
+      <section id="servicos" className="w-full bg-bg-lara px-6 pb-24">
         <div className="max-w-[1200px] mx-auto flex flex-col gap-14">
           <FadeUp className="flex flex-col gap-[21px] text-center">
             <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-[42px] leading-[42px]">
