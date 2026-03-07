@@ -62,7 +62,7 @@ export const Footer = () => {
 
             {/* Navegação */}
             <div className="flex flex-col gap-5 md:pt-[110px]">
-              <p className="text-[#B84C32] font-bold [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
+              <p className="text-[#B84C32] [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
                 Navegação
               </p>
               <ul className="flex flex-col gap-1 [font-family:'Literata',serif]">
@@ -75,7 +75,7 @@ export const Footer = () => {
 
             {/* Serviços */}
             <div className="flex flex-col gap-5 md:pt-[110px]">
-              <p className="text-[#B84C32] font-bold [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
+              <p className="text-[#B84C32] [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
                 Serviços
               </p>
               <ul className="flex flex-col gap-1 [font-family:'Literata',serif]">
@@ -89,7 +89,7 @@ export const Footer = () => {
 
             {/* Contacto */}
             <div className="flex flex-col gap-5 md:pt-[110px]">
-              <p className="text-[#B84C32] font-bold [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
+              <p className="text-[#B84C32] [font-family:'Old_Standard_TT',serif] text-[16px] leading-tight">
                 Contacto
               </p>
               <div className="flex flex-col gap-3 [font-family:'Literata',serif]">
