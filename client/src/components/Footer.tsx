@@ -95,19 +95,19 @@ export const Footer = () => {
               <div className="flex flex-col gap-3 [font-family:'Literata',serif]">
                 <div className="flex items-start gap-2">
                   <img src="/figmaAssets/icons/icon-email.svg" alt="" className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                  <a href="mailto:afonseca.joana@gmail.com" className="text-[#502f27] text-[0.75rem] leading-relaxed hover:text-[#B84C32] transition-colors">
+                  <a href="mailto:afonseca.joana@gmail.com" className="text-[#502f27] text-[14px] leading-relaxed hover:text-[#B84C32] transition-colors">
                     afonseca.joana@gmail.com
                   </a>
                 </div>
                 <div className="flex items-start gap-2">
                   <img src="/figmaAssets/icons/icon-telefone.svg" alt="" className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                  <a href="tel:+351912665445" className="text-[#502f27] text-[0.75rem] leading-relaxed hover:text-[#B84C32] transition-colors">
+                  <a href="tel:+351912665445" className="text-[#502f27] text-[14px] leading-relaxed hover:text-[#B84C32] transition-colors">
                     +351 <strong>912 665 445</strong>
                   </a>
                 </div>
                 <div className="flex items-start gap-2">
                   <img src="/figmaAssets/icons/icon-morada.svg" alt="" className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                  <span className="text-[#502f27] text-[0.75rem] leading-relaxed">
+                  <span className="text-[#502f27] text-[14px] leading-relaxed">
                     Rua Visconde Anadia, nº19, Ed. Anadia,<br />
                     6º Andar, Sala AF · 9050-020 Funchal
                   </span>
