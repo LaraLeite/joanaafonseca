@@ -79,12 +79,12 @@ const specialtiesData: Record<string, {
 };
 
 const allSpecialties = [
-  { title: "Perturbações de ansiedade", image: "/images/area-ansiedade.jpg", href: "/especialidades/ansiedade" },
-  { title: "Perturbações de humor", image: "/images/area-perturbarcoes.jpg", href: "/especialidades/humor" },
-  { title: "Intervenção em crise", image: "/images/area-crise.jpg", href: "/especialidades/crise" },
-  { title: "Regulação emocional", image: "/images/area-regulacao.jpg", href: "/especialidades/regulacao-emocional" },
-  { title: "Adaptação à mudança", image: "/images/area-adaptacao.jpg", href: "/especialidades/mudanca-vida" },
-  { title: "Gestão de stress", image: "/images/area-perturbarcoes.svg", href: "/especialidades/stress" },
+  { title: "Perturbações de ansiedade", description: "Quando o medo e a preocupação se tornam constantes e limitam a vida quotidiana.", image: "/images/area-ansiedade.jpg", href: "/especialidades/ansiedade" },
+  { title: "Perturbações de humor", description: "Tristeza profunda, perda de energia ou euforia excessiva que afetam o dia a dia.", image: "/images/area-perturbarcoes.jpg", href: "/especialidades/humor" },
+  { title: "Intervenção em crise", description: "Apoio psicológico imediato em situações de choque, perda, violência, doença ou acontecimentos traumáticos.", image: "/images/area-crise.jpg", href: "/especialidades/crise" },
+  { title: "Regulação emocional", description: "Aprender a reconhecer, aceitar e gerir emoções de forma saudável.", image: "/images/area-regulacao.jpg", href: "/especialidades/regulacao-emocional" },
+  { title: "Adaptação à mudança", description: "Apoio em fases desafiantes da vida, como adolescência, parentalidade, divórcio ou luto.", image: "/images/area-adaptacao.jpg", href: "/especialidades/mudanca-vida" },
+  { title: "Gestão de stress", description: "Ferramentas práticas para lidar com a pressão, prevenir o burnout e recuperar qualidade de vida.", image: "/images/area-stress.jpg", href: "/especialidades/stress" },
 ];
 
 export const EspecialidadeDetailPage = (): JSX.Element => {
