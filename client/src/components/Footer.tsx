@@ -66,10 +66,10 @@ export const Footer = () => {
                 Navegação
               </p>
               <ul className="flex flex-col gap-1 [font-family:'Literata',serif]">
-                <li><Link href="/espaco" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Espaço</Link></li>
-                <li><Link href="/sobre" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Sobre Mim</Link></li>
-                <li><Link href="/especialidades" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Especialidades</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Consultas</Link></li>
+                <li><Link href="/espaco" onClick={() => window.scrollTo(0, 0)} className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Espaço</Link></li>
+                <li><Link href="/sobre" onClick={() => window.scrollTo(0, 0)} className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Sobre Mim</Link></li>
+                <li><Link href="/especialidades" onClick={() => window.scrollTo(0, 0)} className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Especialidades</Link></li>
+                <li><Link href="/consultas" onClick={() => window.scrollTo(0, 0)} className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Consultas</Link></li>
               </ul>
             </div>
 
@@ -79,11 +79,11 @@ export const Footer = () => {
                 Serviços
               </p>
               <ul className="flex flex-col gap-1 [font-family:'Literata',serif]">
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Avaliação Psicológica</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicoterapêutico</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Aconselhamento Parental</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicopedagógico</Link></li>
-                <li><Link href="/consultas" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Workshops e Formações</Link></li>
+                <li><Link href="/consultas" onClick={() => window.scrollTo(0, 0)} className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Avaliação Psicológica</Link></li>
+                <li><Link href="/consultas" onClick={() => window.scrollTo(0, 0)} className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicoterapêutico</Link></li>
+                <li><Link href="/consultas" onClick={() => window.scrollTo(0, 0)} className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Aconselhamento Parental</Link></li>
+                <li><Link href="/consultas" onClick={() => window.scrollTo(0, 0)} className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicopedagógico</Link></li>
+                <li><Link href="/consultas" onClick={() => window.scrollTo(0, 0)} className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Workshops e Formações</Link></li>
               </ul>
             </div>
 
@@ -134,9 +134,9 @@ export const Footer = () => {
               />
             </div>
             <div className="flex items-center gap-2 text-[0.8rem] text-[#A47569] [font-family:'Literata',serif]">
-              <Link href="/termos" className="underline hover:text-[#B84C32] transition-colors">Termos</Link>
+              <Link href="/termos" onClick={() => window.scrollTo(0, 0)} className="underline hover:text-[#B84C32] transition-colors">Termos</Link>
               <span>·</span>
-              <Link href="/politica" className="underline hover:text-[#B84C32] transition-colors">Política</Link>
+              <Link href="/politica" onClick={() => window.scrollTo(0, 0)} className="underline hover:text-[#B84C32] transition-colors">Política</Link>
               <span>·</span>
               <span>Copyright © 2026 · joanaafonseca</span>
             </div>
