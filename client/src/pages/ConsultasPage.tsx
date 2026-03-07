@@ -208,12 +208,10 @@ export const ConsultasPage = (): JSX.Element => {
           </div>
 
           {/* Separator */}
-          <FadeUp className="flex items-center gap-8 justify-center pt-2" delay={0.3}>
-          <div className="flex items-center gap-4 my-4">
+          <FadeUp className="flex items-center gap-4 w-full pt-2" delay={0.3}>
             <div className="flex-1 h-px bg-[#502f27]/20" />
             <img src="/figmaAssets/icons/icon-flor.svg" alt="" className="w-5 h-5 opacity-50" />
             <div className="flex-1 h-px bg-[#502f27]/20" />
-          </div>
           </FadeUp>
         </div>
       </section>
