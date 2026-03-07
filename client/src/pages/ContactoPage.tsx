@@ -59,7 +59,7 @@ export const ContactoPage = (): JSX.Element => {
               href="https://www.facebook.com/JoanaAfonsecaPsicologia"
               target="_blank"
               rel="noopener noreferrer"
-              className="[font-family:'Literata',Helvetica] text-textoparagraph texto-sl hover:text-[#B84C32] transition-colors underline"
+              className="[font-family:'Literata',Helvetica] text-textoparagraph texto-sl hover:text-[#B84C32] transition-colors underline break-all"
             >
               📘 https://www.facebook.com/JoanaAfonsecaPsicologia
             </a>
@@ -67,7 +67,7 @@ export const ContactoPage = (): JSX.Element => {
               href="https://www.instagram.com/joanaafonseca.psicologia/"
               target="_blank"
               rel="noopener noreferrer"
-              className="[font-family:'Literata',Helvetica] text-textoparagraph texto-sl hover:text-[#B84C32] transition-colors underline"
+              className="[font-family:'Literata',Helvetica] text-textoparagraph texto-sl hover:text-[#B84C32] transition-colors underline break-all"
             >
               📷 https://www.instagram.com/joanaafonseca.psicologia/
             </a>
