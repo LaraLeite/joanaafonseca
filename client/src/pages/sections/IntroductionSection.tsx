@@ -33,12 +33,13 @@ export const IntroductionSection = (): JSX.Element => {
         </div>
       </section>
 
-      <img
-        src="/figmaAssets/onda.svg"
-        alt=""
-        className="w-full block"
-        style={{ display: "block", marginTop: "-2px" }}
-      />
+      <div className="w-full overflow-hidden" style={{ marginTop: "-2px" }}>
+        <img
+          src="/figmaAssets/onda.svg"
+          alt=""
+          className="w-full block"
+        />
+      </div>
     </>
   );
 };
