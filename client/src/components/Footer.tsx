@@ -19,7 +19,7 @@ export const Footer = () => {
             <div className="flex flex-col items-start gap-3">
               <Link href="/">
                 <img
-                  src="/figmaAssets/logo.png"
+                  src="/figmaAssets/logo.svg"
                   alt="Joana Afonseca"
                   className="h-24 w-auto cursor-pointer"
                   onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
