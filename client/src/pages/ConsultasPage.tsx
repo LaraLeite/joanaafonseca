@@ -244,15 +244,7 @@ export const ConsultasPage = (): JSX.Element => {
             ))}
           </div>
 
-          {/* CTA */}
-          <FadeUp className="flex justify-center pt-4" delay={0.3}>
-            <Link
-              href="/contacto"
-              className="inline-block px-10 py-4 rounded-[50px] bg-medium-carmine text-white [font-family:'Literata',Helvetica] font-medium texto-sl hover:bg-[#9a3f2a] transition-colors duration-200 shadow-md"
-            >
-              Marcar consulta
-            </Link>
-          </FadeUp>
+        
         </div>
       </section>
 
