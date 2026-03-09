@@ -79,11 +79,11 @@ export const Footer = () => {
                 Serviços
               </p>
               <ul className="flex flex-col gap-1 [font-family:'Literata',serif]">
-                <li><Link href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Avaliação Psicológica</Link></li>
-                <li><Link href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicoterapêutico</Link></li>
-                <li><Link href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Aconselhamento Parental</Link></li>
-                <li><Link href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicopedagógico</Link></li>
-                <li><Link href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Workshops e Formações</Link></li>
+                <li><a href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Avaliação Psicológica</a></li>
+                <li><a href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicoterapêutico</a></li>
+                <li><a href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Aconselhamento Parental</a></li>
+                <li><a href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Apoio Psicopedagógico</a></li>
+                <li><a href="/consultas#servicos" className="text-[#1E1E1E] text-[14px] hover:text-[#B84C32] transition-colors">Workshops e Formações</a></li>
               </ul>
             </div>
 
