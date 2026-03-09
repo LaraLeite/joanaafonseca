@@ -238,18 +238,21 @@ export const EspecialidadeDetailPage = (): JSX.Element => {
                     />
                   </div>
                 </Link>
-                <div className="flex flex-col gap-3">
-                  <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-xl leading-tight">
-                    {item.title}
-                  </h3>
-                  <Link
-                    href={item.href}
-                    onClick={() => window.scrollTo(0, 0)}
-                    className="btn-pill inline-block w-fit px-6 py-2.5 rounded-[50px] border border-[#C79DCE] [font-family:'Literata',Helvetica] font-medium text-[#893420] text-base hover:bg-[#B84C32] hover:text-white hover:border-[#B84C32] transition-all duration-200"
-                  >
-                    Saiba mais
-                  </Link>
-                </div>
+                  <div className="flex flex-col gap-3">
+                    <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-xl leading-tight">
+                      {item.title}
+                    </h3>
+                    <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-relaxed">
+                      {item.description}
+                    </p>
+                    <Link
+                      href={item.href}
+                      onClick={() => window.scrollTo(0, 0)}
+                      className="btn-pill inline-block w-fit px-6 py-2.5 rounded-[50px] border border-[#C79DCE] [font-family:'Literata',Helvetica] font-medium text-[#893420] text-base hover:bg-[#B84C32] hover:text-white hover:border-[#B84C32] transition-all duration-200"
+                    >
+                      Saiba mais
+                    </Link>
+                  </div>
               </FadeUp>
             ))}
           </div>
