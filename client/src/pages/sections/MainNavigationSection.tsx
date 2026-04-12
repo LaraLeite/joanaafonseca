@@ -69,7 +69,7 @@ export const MainNavigationSection = (): JSX.Element => {
                 <NavigationMenuLink asChild>
                   <Link
                     href={item.href}
-                    className={`[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-lg tracking-wider leading-[30px] cursor-pointer relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:bg-[#B84C32] after:transition-all after:duration-300 hover:text-[#B84C32] hover:after:w-full transition-colors ${location === item.href ? 'text-[#B84C32] after:w-full' : 'text-textoparagraph after:w-0'}`}
+                    className={`[font-family:'Old_Standard_TT',Helvetica] font-normal text-lg tracking-wider leading-[30px] cursor-pointer relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:bg-[#B84C32] after:transition-all after:duration-300 hover:text-[#B84C32] hover:after:w-full transition-colors ${location === item.href ? 'text-[#B84C32] after:w-full' : 'text-textoparagraph after:w-0'}`}
                   >
                     {item.label}
                   </Link>
