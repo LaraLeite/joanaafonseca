@@ -9,7 +9,7 @@ export const QuoteBannerSection = (): JSX.Element => {
           alt="Hero background"
           src="/images/banner_home.jpg"
         />
-        <div className="absolute inset-0 bg-black/25" />
+        <div className="absolute inset-0 bg-[rgba(40,50,30,0.45)]" />
         <div className="relative z-10 flex flex-col items-center justify-center gap-5 md:gap-8 max-w-[720px] w-full px-6 py-16 md:py-20 text-center">
           <p className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-white text-[1.5rem] leading-[2rem] tracking-tight">
             "Não é mais forte quem sobrevive, nem o mais inteligente,<br className="hidden md:block" />
