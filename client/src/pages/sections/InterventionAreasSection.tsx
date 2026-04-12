@@ -63,7 +63,7 @@ export const InterventionAreasSection = (): JSX.Element => {
                   className="w-full aspect-[457/306] object-cover object-top rounded-[14px] cursor-pointer hover:opacity-90 transition-opacity"
                 />
               </Link>
-              <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-2xl md:text-[32px] leading-[1.25]">
+              <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-2xl md:text-[26px] leading-[1.25]">
                 {area.title}
               </h3>
               <p className="texto-sl [font-family:'Literata',Helvetica] font-normal text-[#502f27]">
