@@ -17,8 +17,8 @@ export const IntroductionSection = (): JSX.Element => {
             </h2>
             <p className="texto-lg [font-family:'Literata',Helvetica] font-normal text-white/85">
               O meu nome é <strong className="font-semibold">Joana Afonseca</strong>, sou Psicóloga Clínica, e o meu propósito é acolher e caminhar ao lado de quem procura transformação, oferecendo 
-              um espaço seguro onde cada pessoa se possa sentir verdadeiramente compreendida. Acredito numa abordagem integrativa e personalizada, que respeita a singularidade de cada história e de 
-              cada percurso. Com presença, empatia e cuidado, procuro apoiar cada pessoa a encontrar o seu próprio caminho de crescimento, equilíbrio e bem-estar.”
+              um espaço seguro onde cada pessoa se possa sentir verdadeiramente compreendida.</br> Acredito numa abordagem integrativa e personalizada, que respeita a singularidade de cada história e de 
+              cada percurso.  </br> Com presença, empatia e cuidado, procuro apoiar cada pessoa a encontrar o seu próprio caminho de crescimento, equilíbrio e bem-estar.”
             </p>
           </FadeUp>
 
