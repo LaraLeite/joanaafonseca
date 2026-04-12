@@ -8,7 +8,7 @@ const servicesData = [
   },
   {
     icon: "/figmaAssets/icons/icon-apoio.svg",
-    title: "Apoio Psicológico e Psicoterapêutico",
+    title: "Psicologia Clínica e Psicoterapia",
     description: "Um espaço seguro para compreender emoções, pensamentos e comportamentos, promovendo equilíbrio, bem-estar e confiança.",
   },
   {
