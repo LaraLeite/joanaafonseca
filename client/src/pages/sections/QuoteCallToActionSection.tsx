@@ -5,7 +5,7 @@ export const QuoteCallToActionSection = (): JSX.Element => {
   return (
     <section className="relative w-full min-h-[400px] md:min-h-[580px] flex items-center overflow-hidden">
       <img
-        src="/figmaAssets/banner.png"
+        src="/images/banner-flor.jpg"
         alt=""
         className="absolute inset-0 w-full h-full object-cover"
       />
