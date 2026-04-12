@@ -42,7 +42,10 @@ export const ServicesOverviewSection = (): JSX.Element => {
             Serviços
           </h2>
           <p className="max-w-[800px] [font-family:'Literata',Helvetica] font-normal text-[#502f27] text-base md:text-[1.1rem] leading-relaxed">
-            Disponibilizamos uma variedade de serviços especializados, adaptados às necessidades de cada pessoa, família ou instituição.
+           A relação terapêutica é o coração do nosso trabalho. Valorizamos a criação de um espaço seguro, acolhedor e livre de julgamentos, onde cada pessoa se possa sentir verdadeiramente escutada, 
+          compreendida e respeitada na sua singularidade. <span class="block">Acreditamos que o processo terapêutico é um caminho de colaboração, construído em conjunto, ao ritmo e de acordo com as necessidades de cada um. </span>
+         <span class="block"> Comprometemo-nos também com uma prática em constante atualização, procurando integrar conhecimento científico rigoroso com uma abordagem humana e sensível. Desta forma, asseguramos um serviço de 
+          excelência nas diversas áreas em que atuamos, oferecendo um acompanhamento cuidado, ético e adaptado a quem nos procura.</span>
           </p>
         </FadeUp>
 
