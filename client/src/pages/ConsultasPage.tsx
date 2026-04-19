@@ -195,7 +195,7 @@ export const ConsultasPage = (): JSX.Element => {
                 </div>
                 <ul className="flex flex-col gap-[7px]">
                   {card.items.map((item, j) => (
-                    <li key={j} className="flex gap-[7px] items-start">
+                    <li key={j} className="flex gap-[7px] pl-[48px] items-start">
                       <span className="text-[#1e1e1e] text-[12.25px] leading-[19.9px] shrink-0">•</span>
                       <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[14px] leading-[19.9px]">
                         {item}
