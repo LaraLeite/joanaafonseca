@@ -14,7 +14,8 @@ export const ContactoPage = (): JSX.Element => {
             Contacto
           </h1>
           <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]">
-            Quer cuidar de si?
+            Este é um espaço de escuta, respeito e confidencialidade, onde cada pessoa é acolhida ao seu ritmo. Estamos disponíveis para o(a) 
+            acolher e acompanhar ao longo do seu processo. Entre em contacto connosco para esclarecer dúvidas ou agendar uma consulta.
           </p>
         </FadeUp>
       </section>
