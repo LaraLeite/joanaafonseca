@@ -19,7 +19,7 @@ const consultationCards = [
     title: "Marcação",
     items: [
       "Todas as sessões são agendadas previamente",
-      "Por contacto telefónico ou email",
+      "Através do WhatsApp ou enviando e-mail para afonseca.joana@gmail.com",
     ],
   },
   {
