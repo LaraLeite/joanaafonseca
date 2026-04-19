@@ -7,6 +7,20 @@ export const ContactoPage = (): JSX.Element => {
     <main className="flex flex-col w-full items-center min-h-screen bg-bg-lara">
       <MainNavigationSection />
 
+{/* Hero Section */}
+      <section className="w-full max-w-[1446px] mx-auto px-6 mb-12">
+        <div className="relative w-full aspect-[16/9] md:aspect-[1446/584] rounded-[20px] md:rounded-[30px] overflow-hidden shadow-xl">
+          <img
+            src="/images/contacto-hero.jpg"
+            alt="Caneta sobre papel“
+            className="absolute inset-0 w-full h-full object-cover"
+            fetchpriority="high"
+          />
+        </div>
+      </section>
+      </section>
+
+      
       {/* Título */}
       <section className="w-full flex justify-center px-6 py-16 md:py-20">
         <FadeUp className="flex flex-col gap-4 items-center text-center max-w-[953px] w-full">
