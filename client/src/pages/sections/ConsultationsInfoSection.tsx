@@ -38,7 +38,7 @@ const consultationCards = [
   {
     icon: "/figmaAssets/icons/icon-acompanhamento.svg",
     title: "Acompanhamento",
-    items: ["Crianças", "Adolescentes e adultos"],
+    items: ["Jovens Adultos", "Adultos"],
   },
 ];
 
