@@ -9,7 +9,7 @@ const servicesData = [
   {
     icon: "/figmaAssets/icons/icon-apoio.svg",
     title: "Psicologia Clínica e Psicoterapia",
-    description: "A consulta de Psicologia e Psicoterapia é um espaço seguro, acolhedor e livre de julgamentos, onde pode explorar emoções, dar sentido a experiências difíceis e olhar para os desafios com uma maior clareza. É um lugar onde, em conjunto, procuramos compreender padrões, aprofundar o conhecimento da história e perceber de que forma esta influencia o presente, abrindo caminho a novas formas de estar e de se relacionar consigo e com os outros. A nossa intervenção integra diferentes abordagens baseadas na evidência científica, como IFS, EMDR, EFT, ACT e TCC, permitindo adaptar o processo terapêutico às suas necessidades específicas, de forma flexível, cuidada e eficaz.",
+    description: "É um lugar onde, em conjunto, procuramos compreender padrões, aprofundar o conhecimento da história e perceber de que forma esta influencia o presente, abrindo caminho a novas formas de estar e de se relacionar consigo e com os outros.",
   },
   {
     icon: "/figmaAssets/icons/icon-parental.svg",
