@@ -12,7 +12,7 @@ const consultationCards = [
   {
     icon: "/figmaAssets/icons/icon-horario.svg",
     title: "Horário",
-    items: ["Segunda a Sexta-feira", "Das 9h às 19h00"],
+    items: ["Segunda a Sexta-feira", "Das 9h - 19h00h"],
   },
   {
     icon: "/figmaAssets/icons/icon-marcacao.svg",
