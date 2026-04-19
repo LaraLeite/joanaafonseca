@@ -51,8 +51,10 @@ export const ConsultationsInfoSection = (): JSX.Element => {
             Consultas
           </h2>
           <p className="max-w-[680px] [font-family:'Literata',Helvetica] font-normal text-[#502f27] text-base md:text-lg leading-relaxed">
-            Todas as sessões decorrem assegurando tranquilidade, privacidade e segurança,<br className="hidden md:block" />
-            para traçar o seu caminho de mudança.
+            Todas as sessões decorrem num ambiente pensado para proporcionar tranquilidade, privacidade e segurança, onde poderá sentir-se verdadeiramente acolhido/a e livre para partilhar, 
+            ao seu ritmo, aquilo que é importante para si. 
+            <span class="block">Este é um espaço de confiança, construído com respeito e confidencialidade, 
+            que convida à reflexão, ao autoconhecimento e ao cuidado pessoal.</span>
           </p>
         </FadeUp>
 
