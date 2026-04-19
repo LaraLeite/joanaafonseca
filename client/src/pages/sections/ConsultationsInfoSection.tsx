@@ -5,7 +5,7 @@ const consultationCards = [
     icon: "/figmaAssets/icons/icon-modalidades.svg",
     title: "Modalidades",
     items: [
-      "Presencial – no consultório, num espaço tranquilo e reservado",
+      "Presencial – num espaço físico tranquilo e reservado",
       "Online – através de videochamada, com a mesma qualidade e confidencialidade",
     ],
   },
