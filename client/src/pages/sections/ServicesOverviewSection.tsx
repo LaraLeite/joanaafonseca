@@ -19,7 +19,7 @@ const servicesData = [
   {
     icon: "/figmaAssets/icons/icon-psicopedagogico.svg",
     title: "Aconselhamento Psicológico Perinatal",
-    description: "Intervenção para crianças e jovens com dificuldades de aprendizagem, atenção ou motivação escolar, estimulando competências e autoestima.",
+    description: "A fase perinatal é um período de grande transformação, muitas vezes vivido com intensidade e acompanhado por desafios, dúvidas e emoções diversas. Desde a pré-conceção até ao pós-parto, incluindo situações de infertilidade, oferecemos um espaço de apoio onde é possível compreender, integrar e cuidar das experiências vividas ao longo deste percurso.",
   },
   {
     icon: "/figmaAssets/icons/icon-consultadoria.svg",
