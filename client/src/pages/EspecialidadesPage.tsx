@@ -72,7 +72,7 @@ export const EspecialidadesPage = (): JSX.Element => {
                 </div>
               </Link>
               <div className="flex flex-col gap-4">
-                <h2 className="[font-family:'Old_Standard_TT',Helvetica] italic text-textotitle text-2xl md:text-3xl leading-tight">
+                <h2 className="[font-family:'Old_Standard_TT',Helvetica] italic text-textotitle text-2xl text-2xl md:text-[26px] leading-tight">
                   {item.title}
                 </h2>
                 <p className="[font-family:'Literata',Helvetica] text-textoparagraph text-base leading-relaxed opacity-90">
