@@ -14,7 +14,7 @@ const servicesData = [
   {
     icon: "/figmaAssets/icons/icon-parental.svg",
     title: "Aconselhamento Psicológico Parental",
-    description: "Cada criança, na sua identidade única, traz consigo desafios que podem impactar o equilíbrio familiar, tornando, por vezes, necessário ajustar dinâmicas e formas de comunicação para promover uma maior compreensão e harmonia nas relações. Este processo é visto como uma oportunidade de crescimento, tanto para a criança como para a família. O aconselhamento parental é personalizado e adaptado às necessidades de cada família, oferecendo um espaço de reflexão, apoio e orientação face às dúvidas e desafios do dia a dia. Em conjunto, são desenvolvidas estratégias específicas que visam fortalecer as competências parentais e apoiar o processo educativo de forma consciente, segura e ajustada.",
+    description: "Pretende ser um espaço de reflexão, apoio e orientação face às dúvidas e desafios do dia a dia, onde em conjunto, são desenvolvidas estratégias específicas que visam fortalecer as competências parentais e apoiar o processo educativo de forma consciente, segura e ajustada.",
   },
   {
     icon: "/figmaAssets/icons/icon-psicopedagogico.svg",
