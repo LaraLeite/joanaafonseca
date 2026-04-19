@@ -49,6 +49,15 @@ export const ContactoPage = (): JSX.Element => {
             </p>
           </div>
 
+           <div className="flex flex-col gap-0.5">
+            <p className="[font-family:'Literata',Helvetica] font-semibold text-textoparagraph texto-sl">
+              Horário:
+            </p>
+            <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[26px]">
+              Segunda a Sexta-feira: 09:00-19:00h
+            </p>
+          </div>
+          
           <div className="flex flex-col gap-2 pt-2">
             <a
               href="mailto:afonseca.joana@gmail.com"
