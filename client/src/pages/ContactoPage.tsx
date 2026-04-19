@@ -11,7 +11,7 @@ export const ContactoPage = (): JSX.Element => {
       <section className="w-full flex justify-center px-6 py-16 md:py-20">
         <FadeUp className="flex flex-col gap-4 items-center text-center max-w-[953px] w-full">
           <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-4xl md:text-5xl leading-tight">
-            Contacto
+            Morada & Contactos
           </h1>
           <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]">
             Este é um espaço de escuta, respeito e confidencialidade, onde cada pessoa é acolhida ao seu ritmo. Estamos disponíveis para o(a) 
