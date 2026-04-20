@@ -7,6 +7,30 @@ export const ContactoPage = (): JSX.Element => {
     <main className="flex flex-col w-full items-center min-h-screen bg-bg-lara">
       <MainNavigationSection />
 
+         {/* Hero Section */}
+          <section className="w-full max-w-[1446px] mx-auto px-6 mb-12">
+            <div className="relative w-full aspect-[16/9] md:aspect-[1446/584] rounded-[20px] md:rounded-[30px] overflow-hidden shadow-xl">
+              <img 
+                src="/images/contacto-hero.jpg" 
+                alt="Caneta sobre papel" 
+                className="absolute inset-0 w-full h-full object-cover"
+                fetchpriority="high"
+              />
+              <img
+                src="/figmaAssets/overly-sobre.png"
+                alt=""
+                className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-black/10 flex items-center justify-end p-8 md:p-20">
+                <blockquote className="max-w-sm text-center">
+                  <p className="[font-family:'Literata',Helvetica] italic text-white text-xl md:text-2xl leading-relaxed">
+                    "Os únicos limites da vida são aqueles que estabelecemos."
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+          </section>
       
       {/* Título */}
       <section className="w-full flex justify-center px-6 py-16 md:py-20">
