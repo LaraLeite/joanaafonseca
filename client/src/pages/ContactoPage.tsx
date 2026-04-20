@@ -7,7 +7,7 @@ export const ContactoPage = (): JSX.Element => {
     <main className="flex flex-col w-full items-center min-h-screen bg-bg-lara">
       <MainNavigationSection />
 
-{/* Hero Section */}
+      {/* Hero Section */}
       <section className="w-full max-w-[1446px] mx-auto px-6 mb-12">
         <div className="relative w-full aspect-[16/9] md:aspect-[1446/584] rounded-[20px] md:rounded-[30px] overflow-hidden shadow-xl">
           <img
