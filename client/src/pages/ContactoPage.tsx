@@ -18,7 +18,6 @@ export const ContactoPage = (): JSX.Element => {
           />
         </div>
       </section>
-      </section>
 
       
       {/* Título */}
