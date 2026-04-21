@@ -22,7 +22,7 @@ export const EspacoPage = (): JSX.Element => {
       {/* Welcome Section */}
       <section className="w-full flex justify-center px-6 py-12 md:py-16">
         <div className="flex max-w-[953px] w-full justify-center gap-6 flex-col items-center text-center">
-          <FadeUp as="h1" className="w-full [font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-5xl tracking-tight leading-tight">
+          <FadeUp as="h1" className="w-full [font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-4xl tracking-tight leading-tight">
             Bem-vindo(a)
           </FadeUp>
           <FadeUp as="p" className="texto-sl w-full [font-family:'Literata',Helvetica] font-normal text-textoparagraph leading-relaxed" delay={0.15}>
