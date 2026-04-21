@@ -11,7 +11,7 @@ export const IntroductionSection = (): JSX.Element => {
         />
         <div className="relative max-w-[1200px] mx-auto px-8 grid grid-cols-1 md:grid-cols-2 items-center gap-12 min-h-[500px] md:min-h-[730px] py-16 md:py-0">
           <FadeUp className="flex flex-col items-center md:items-start text-center md:text-left gap-6">
-            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-white text-3xl md:text-[clamp(1.8rem,3vw,3rem)] leading-[1.166] tracking-tight">
+            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-white text-4xl leading-[1.166] tracking-tight">
               Fortaleça o seu<br />
               bem estar mental
             </h2>
