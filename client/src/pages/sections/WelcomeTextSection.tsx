@@ -4,7 +4,7 @@ export const WelcomeTextSection = (): JSX.Element => {
   return (
     <section className="w-full flex justify-center px-6 py-16 md:py-20">
       <FadeUp className="flex max-w-[960px] w-full flex-col items-center text-center gap-6">
-        <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-3xl md:text-5xl tracking-tight leading-tight">
+        <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-3xl md:text-4xl tracking-tight leading-tight">
           Bem-vindo(a)
         </h1>
         <p className="texto-lg [font-family:'Literata',Helvetica] font-normal text-[#502f27]">
