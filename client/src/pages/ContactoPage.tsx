@@ -62,6 +62,11 @@ export const ContactoPage = (): JSX.Element => {
           </div>
 
            <div className="flex flex-col gap-0.5">
+             <img 
+                src="/figmaAssets/icons/icon-horario.svg" 
+                alt="Horário"
+                className="w-5 h-5 mt-[4px]"
+             />
             <p className="[font-family:'Literata',Helvetica] font-semibold text-textoparagraph texto-sl">
               Horário:
             </p>
