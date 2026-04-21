@@ -13,7 +13,8 @@ export const Footer = () => {
       <footer className="w-full bg-[#F0E2DD] px-8 pt-16 pb-20">
         <div className="max-w-[1200px] mx-auto">
 
-          <div className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr_1.2fr_1.6fr] gap-10 pb-12 border-b border-[rgba(196,113,90,0.2)]">
+          <div className="grid grid-cols-1 md:grid-cols-[1.4fr_1.2fr_1.6fr_1.6fr] gap-10 pb-12 border-b border-[rgba(196,113,90,0.2)]">
+
 
             {/* Brand column */}
             <div className="flex flex-col items-start gap-3">
