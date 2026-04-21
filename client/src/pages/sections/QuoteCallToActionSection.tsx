@@ -11,7 +11,7 @@ export const QuoteCallToActionSection = (): JSX.Element => {
       />
       <div className="absolute inset-0 bg-[rgba(40,50,30,0.45)]" />
       <FadeUp className="relative z-10 w-full max-w-[1200px] mx-auto px-8 py-16 md:py-20 flex flex-col items-center gap-7 text-center">
-        <blockquote className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-white text-2xl md:text-[clamp(1.6rem,3vw,2.4rem)] leading-[1.35] max-w-[680px]">
+        <blockquote className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-white text-[1.5rem] md:text-[clamp(1.5rem,3vw,2.4rem)] leading-[1.35] max-w-[680px]">
           "Os únicos limites da vida são aqueles que estabelecemos."
         </blockquote>
         <Link
