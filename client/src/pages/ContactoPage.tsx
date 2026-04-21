@@ -67,7 +67,6 @@ export const ContactoPage = (): JSX.Element => {
                 alt="Horário"
                 className="w-5 h-5 mx-auto"
              />
-            </p>
             <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[26px]">
               Segunda a Sexta-feira: 09:00-19:00h
             </p>
