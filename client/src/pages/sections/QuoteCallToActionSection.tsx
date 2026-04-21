@@ -3,7 +3,7 @@ import { FadeUp } from "@/components/FadeUp";
 
 export const QuoteCallToActionSection = (): JSX.Element => {
   return (
-    <section className="relative w-full min-h-[400px] md:min-h-[480px] flex items-center overflow-hidden">
+    <section className="relative w-full min-h-[400px] md:min-h-[420px] flex items-center overflow-hidden">
       <img
         src="/images/banner-flor.jpg"
         alt=""
