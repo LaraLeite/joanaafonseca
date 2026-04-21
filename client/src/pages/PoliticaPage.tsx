@@ -9,7 +9,7 @@ export const PoliticaPage = (): JSX.Element => {
 
       <section className="w-full max-w-[860px] mx-auto px-6 py-16 md:py-20 flex flex-col gap-10">
         <FadeUp className="flex flex-col gap-4 text-center">
-          <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-4xl md:text-5xl leading-tight">
+          <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-4xl md:text-4xl leading-tight">
             Política de Privacidade
           </h1>
           <p className="[font-family:'Literata',Helvetica] text-textoparagraph texto-sl opacity-70">
