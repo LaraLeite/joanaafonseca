@@ -220,7 +220,7 @@ export const ConsultasPage = (): JSX.Element => {
       <section id="servicos" className="w-full bg-bg-lara px-6 pb-24">
         <div className="max-w-[1200px] mx-auto flex flex-col gap-14">
           <FadeUp className="flex flex-col gap-[21px] text-center">
-            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-[42px] leading-[42px]">
+            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle md:text-4xl leading-[42px]">
               Serviços
             </h2>
             <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[17.5px] leading-[24.5px]">
