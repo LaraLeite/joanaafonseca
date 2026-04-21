@@ -148,7 +148,7 @@ export const EspecialidadeDetailPage = (): JSX.Element => {
 
           {/* Title + Hero Image */}
           <section className="w-full max-w-[1200px] mx-auto px-6 pt-4 md:pt-8 pb-10 flex flex-col gap-8 items-center">
-            <FadeUp as="h1" className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-5xl text-center tracking-tight leading-tight max-w-3xl">
+            <FadeUp as="h1" className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-4xl text-center tracking-tight leading-tight max-w-3xl">
               {data.title}
             </FadeUp>
             <FadeUp className="w-full relative aspect-[16/9] md:aspect-[1200/560] rounded-[20px] md:rounded-[30px] overflow-hidden shadow-xl" delay={0.15}>
