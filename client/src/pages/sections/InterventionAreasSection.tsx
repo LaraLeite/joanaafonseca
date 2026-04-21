@@ -48,7 +48,7 @@ export const InterventionAreasSection = (): JSX.Element => {
           <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-4xl tracking-tight leading-tight mb-3">
             Áreas de intervenção
           </h2>
-          <p className="[font-family:'Literata',Helvetica] font-normal italic text-[#A47569] text-lg md:text-[1.375rem]">
+          <p className="[font-family:'Literata',Helvetica] font-normal italic text-[#A47569] text-sl">
             Clínica presencial e digital
           </p>
         </FadeUp>
