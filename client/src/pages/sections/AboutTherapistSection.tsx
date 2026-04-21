@@ -1,7 +1,7 @@
 export const AboutTherapistSection = (): JSX.Element => {
   return (
     <section className="flex flex-col w-full items-center px-6 py-12 md:py-20 relative text-center">
-      <h2 className="relative w-fit [font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-5xl tracking-[0] leading-tight">
+      <h2 className="relative w-fit [font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-4xl tracking-[0] leading-tight">
         Áreas de intervenção
       </h2>
 
