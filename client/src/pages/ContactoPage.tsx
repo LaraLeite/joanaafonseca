@@ -22,7 +22,7 @@ export const ContactoPage = (): JSX.Element => {
       {/* Título */}
       <section className="w-full flex justify-center px-6 py-16 md:py-20">
         <FadeUp className="flex flex-col gap-4 items-center text-center max-w-[953px] w-full">
-          <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-4xl md:text-5xl leading-tight">
+          <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-4xl md:text-4xl leading-tight">
             Morada & Contactos
           </h1>
           <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]">
