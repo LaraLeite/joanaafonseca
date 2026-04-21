@@ -63,7 +63,7 @@ export const ContactoPage = (): JSX.Element => {
 
            <div className="flex flex-col gap-0.5">
              <img 
-                src="/figmaAssets/icons/icon-horario.svg" 
+                src="/figmaAssets/icons/icon-horario-dark.svg" 
                 alt="Horário"
                 className="w-5 h-5 mx-auto"
              />
