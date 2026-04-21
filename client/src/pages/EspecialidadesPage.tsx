@@ -49,7 +49,7 @@ export const EspecialidadesPage = (): JSX.Element => {
 
       {/* Header Section */}
       <section className="w-full max-w-4xl mx-auto px-6 py-12 md:py-20 text-center flex flex-col gap-6">
-        <h1 className="[font-family:'Old_Standard_TT',Helvetica] italic text-textotitle text-4xl md:text-5xl tracking-tight">
+        <h1 className="[font-family:'Old_Standard_TT',Helvetica] italic text-textotitle text-4xl md:text-4xl tracking-tight">
           Especialidades
         </h1>
         <p className="[font-family:'Literata',Helvetica] text-textoparagraph text-sl max-w-2xl mx-auto leading-relaxed opacity-80">
