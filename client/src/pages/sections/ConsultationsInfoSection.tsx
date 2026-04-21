@@ -75,7 +75,7 @@ export const ConsultationsInfoSection = (): JSX.Element => {
               </div>
               <ul className="flex flex-col gap-1.5">
                 {card.items.map((item, i) => (
-                  <li key={i} className="flex items-center pl-[48px] gap-2">
+                  <li key={i} className="flex items-start pl-[48px] gap-2">
                     <span className="text-[#502f27] font-bold mt-0.5 flex-shrink-0">·</span>
                     <p className="[font-family:'Literata',Helvetica] font-normal text-[#502f27] text-sm leading-relaxed">
                       {item}
