@@ -66,7 +66,7 @@ export const ConsultationsInfoSection = (): JSX.Element => {
               className="bg-[rgba(188,88,125,0.3)] rounded-[14px] p-6 flex flex-col gap-3"
             >
               <div className="flex items-center gap-3 mb-1">
-                <div className="w-10 h-10 bg-white/60 rounded-[12px] flex items-start justify-center flex-shrink-0">
+                <div className="w-10 h-10 bg-white/60 rounded-[12px] flex items-center justify-center flex-shrink-0">
                   <img src={card.icon} alt="" className="w-5 h-5" />
                 </div>
                 <span className="[font-family:'Literata',Helvetica] font-medium text-[#502f27] text-[0.95rem]">
@@ -75,7 +75,7 @@ export const ConsultationsInfoSection = (): JSX.Element => {
               </div>
               <ul className="flex flex-col gap-1.5">
                 {card.items.map((item, i) => (
-                  <li key={i} className="flex items-start gap-2">
+                  <li key={i} className="flex items-center gap-2">
                     <span className="text-[#502f27] font-bold mt-0.5 flex-shrink-0">·</span>
                     <p className="[font-family:'Literata',Helvetica] font-normal text-[#502f27] text-sm leading-relaxed">
                       {item}
