@@ -22,7 +22,7 @@ export const QuoteBannerSection = (): JSX.Element => {
             href="/consultas"
             className="btn-pill inline-flex items-center justify-center px-8 py-3 bg-[#B84C32] text-white rounded-[50px] [font-family:'Literata',Helvetica] font-medium text-base hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
           >
-            Marcar consulta
+            Agendar consulta
           </Link>
         </div>
       </div>
