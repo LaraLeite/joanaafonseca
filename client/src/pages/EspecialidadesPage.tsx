@@ -53,7 +53,7 @@ export const EspecialidadesPage = (): JSX.Element => {
           Especialidades
         </h1>
         <p className="[font-family:'Literata',Helvetica] text-textoparagraph text-sl max-w-2xl mx-auto leading-relaxed opacity-80">
-          Compreenda e cuide as perturbações mais comuns que afetam o bem-estar psicológico.
+          Conheça as dificuldades mais comuns que podem afetar o bem-estar emocional e encontre apoio especializado para promover equilíbrio e qualidade de vida.
         </p>
       </section>
 
