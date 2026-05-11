@@ -9,10 +9,10 @@ export const WelcomeTextSection = (): JSX.Element => {
         </h1>
         <p className="texto-lg [font-family:'Literata',Helvetica] font-normal text-[#502f27]">
           Este é um espaço onde pode desacelerar, respirar e simplesmente ser. Um
-          lugar de escuta e cuidado, pensado para o(a) acompanhar no caminho de
-          reencontro consigo mesmo(a). Aqui, cada passo é acolhido com respeito
-          e confiança, para que possa abrir espaço a novas possibilidades, maior
-          equilíbrio e uma vida mais leve e plena.
+          lugar de escuta e cuidado, pensado para o(a) acompanhar no{" "}
+          <strong>caminho de reencontro consigo mesmo(a)</strong>, para que possa
+          abrir espaço a novas possibilidades,{" "}
+          <strong>maior equilíbrio e uma vida mais leve e plena</strong>.
         </p>
       </FadeUp>
     </section>
