@@ -93,7 +93,7 @@ export const ConsultasPage = (): JSX.Element => {
             Consultas
           </FadeUp>
           <FadeUp as="p" className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]" delay={0.12}>
-            Todas as sessões decorrem assegurando tranquilidade, privacidade e segurança, para traçar o seu caminho de mudança.
+            As consultas decorrem num espaço de tranquilidade, privacidade e segurança, pensado para que se sinta acolhido(a) e acompanhado(a) ao longo do seu processo terapêutico. Cada acompanhamento é adaptado às suas necessidades, respeitando o seu ritmo e promovendo um caminho de maior compreensão, equilíbrio e mudança.
           </FadeUp>
         </div>
       </section>
