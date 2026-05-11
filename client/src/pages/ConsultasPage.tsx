@@ -173,7 +173,7 @@ export const ConsultasPage = (): JSX.Element => {
             <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]">
               As sessões decorrem de{" "}
               <span className="font-bold">segunda a sexta-feira</span> entre as{" "}
-              <span className="font-bold">9h e as 19h00.</span>
+              <span className="font-bold">09:00 – 19:00h.</span>
             </p>
           </FadeUp>
 
