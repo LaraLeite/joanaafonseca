@@ -35,7 +35,7 @@ const interventionAreas = [
   {
     image: "/images/area-stress.jpg",
     title: "Gestão de stress",
-    description: "Ferramentas práticas para lidar com a pressão, prevenir o burnout e recuperar qualidade de vida.",
+    description: "Ferramentas para lidar com a pressão, prevenir o burnout e recuperar qualidade de vida.",
     slug: "stress",
   },
 ];
