@@ -17,7 +17,7 @@ const interventionAreas = [
   {
     image: "/images/area-crise.jpg",
     title: "Intervenção em crise",
-    description: "Apoio psicológico imediato em situações de choque, perda, violência, doença ou acontecimentos traumáticos.",
+    description: "Apoio psicológico imediato em situações de choque/perda ou acontecimentos traumáticos",
     slug: "crise",
   },
   {
