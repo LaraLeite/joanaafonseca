@@ -39,7 +39,7 @@ export const SobrePage = (): JSX.Element => {
             Sobre mim
           </h1>
           <p className="texto-sl [font-family:'Literata',Helvetica] text-textoparagraph">
-            O meu nome é <span className="font-bold">Joana Afonseca</span>, <span className="italic">Psicóloga Clínica e da Saúde</span> e membro efetivo da Ordem dos Psicólogos Portugueses, <span className="font-medium">cédula profissional n.º 21053.</span>
+            O meu nome é <span className="font-bold">Joana Afonseca</span>, <span className="italic">Psicóloga Clínica e da Saúde</span> e membro efetivo da Ordem dos Psicólogos Portugueses, <span className="font-medium">cédula profissional n.º 21653.</span>
           </p>
           <div className="flex items-center gap-4 my-4">
             <div className="flex-1 h-px bg-[#502f27]/20" />
@@ -111,7 +111,7 @@ export const SobrePage = (): JSX.Element => {
         />
         <div className="relative z-10 max-w-4xl mx-auto flex flex-col gap-12">
           <div className="flex flex-col gap-6 [font-family:'Literata',Helvetica] text-textoparagraph text-sm md:text-base opacity-80">
-            <FadeUp as="p">Sou <span className="font-bold">membro efetivo da OPP Nº 21053</span> e, enquanto psicóloga credenciada, assumo a formação contínua como uma responsabilidade de todos os profissionais que procuram prestar um serviço de qualidade.</FadeUp>
+            <FadeUp as="p">Sou <span className="font-bold">membro efetivo da OPP Nº 21653</span> e, enquanto psicóloga credenciada, assumo a formação contínua como uma responsabilidade de todos os profissionais que procuram prestar um serviço de qualidade.</FadeUp>
             <FadeUp as="p" delay={0.1}>Tenho Especialização Avançada em Terapias Cognitivo-Comportamentais com Adultos e em Intervenção na Gravidez e Parentalidade, Terapia EMDR, Internal Family Systems (IFS) e em Intervenção em Crise.</FadeUp>
             <FadeUp as="p" delay={0.2}>Sou também formadora certificada na área da promoção de competências emocionais, profissionais e sociais, entre outras.</FadeUp>
           </div>
