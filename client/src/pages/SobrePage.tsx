@@ -120,7 +120,7 @@ export const SobrePage = (): JSX.Element => {
             {[
               { year: "2025", items: ["Terapeuta IFS - Internal Family Systems - nível 1, Sociedade Portuguesa de Psicoterapias Construtivistas"] },
               { year: "2024", items: ["Psicoterapeuta pela Sociedade Portuguesa de Psicoterapias Construtivistas (em formação)", "Terapeuta EMDR, nível II, pela Associação Portuguesa de EMDR, Membro nº514", "Formação na Comunidade: Mentalizando - orientada pela Psiquiatra Perinatal Doutora Teresa Reis"] },
-              { year: "2023", items: ["Pós-especialização em Intervenção na Gravidez e Parentalidade pelo INSPIC"] },
+              { year: "2023", items: ["Especialização Avançada Pós-Universitária em Intervenção na Gravidez e na Parentalidade"] },
               { year: "2021", items: ["Especialização Avançada em Terapias Cognitivo-Comportamentais com Adultos"] },
               { year: "2020", items: ["Especialização Avançada em Intervenção em Crise e em Múltiplos Contextos"] },
               { year: "2015", items: ["Mestrado em Psicologia Clínica e da Saúde pela Universidade Portucalense Infante D. Henrique (Porto)"] },
