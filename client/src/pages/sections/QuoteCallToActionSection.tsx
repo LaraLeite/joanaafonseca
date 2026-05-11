@@ -18,7 +18,7 @@ export const QuoteCallToActionSection = (): JSX.Element => {
           href="/consultas"
           className="btn-pill inline-block px-8 py-3 bg-[#B84C32] text-white rounded-[50px] [font-family:'Literata',Helvetica] font-medium text-base hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200"
         >
-          Marcar consulta
+          Agendar consulta
         </Link>
       </FadeUp>
     </section>
