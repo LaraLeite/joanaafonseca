@@ -45,7 +45,7 @@ export const InterventionAreasSection = (): JSX.Element => {
     <section className="w-full px-6 py-16 md:py-20">
       <div className="max-w-[1200px] mx-auto">
         <FadeUp className="text-center mb-12">
-          <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-4xl tracking-tight leading-tight mb-2">
+          <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-2xl tracking-tight leading-tight mb-2">
             Áreas de intervenção
           </h2>
           <p className="[font-family:'Literata',Helvetica] font-normal italic text-[#A47569] text-sl">
@@ -63,7 +63,7 @@ export const InterventionAreasSection = (): JSX.Element => {
                   className="w-full aspect-[457/306] object-cover object-top rounded-[14px] cursor-pointer hover:opacity-90 transition-opacity"
                 />
               </Link>
-              <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-2xl md:text-[26px] leading-[1.25]">
+              <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-2xl md:text-[24px] leading-[1.25]">
                 {area.title}
               </h3>
               <p className="texto-sl [font-family:'Literata',Helvetica] font-normal text-[#502f27]">
