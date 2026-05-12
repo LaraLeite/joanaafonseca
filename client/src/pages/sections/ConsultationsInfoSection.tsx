@@ -47,7 +47,7 @@ export const ConsultationsInfoSection = (): JSX.Element => {
     <section className="w-full px-6 py-16 md:py-20">
       <div className="max-w-[1200px] mx-auto flex flex-col items-center gap-12">
         <FadeUp className="flex flex-col items-center gap-4 text-center">
-          <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-4xl tracking-tight leading-tight">
+          <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-3xl tracking-tight leading-tight">
             Consultas
           </h2>
           <p className="max-w-[680px] [font-family:'Literata',Helvetica] font-normal text-[#502f27] text-base md:text-lg leading-relaxed">
