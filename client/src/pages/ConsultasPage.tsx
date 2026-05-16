@@ -95,7 +95,7 @@ export const ConsultasPage = (): JSX.Element => {
       {/* Título "Consultas" */}
       <section className="w-full flex justify-center px-6 py-20">
         <div className="flex flex-col gap-4 items-center text-center max-w-[888px] w-full">
-          <FadeUp as="h1" className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-4xl md:text-4xl leading-tight">
+          <FadeUp as="h1" className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-3xl leading-tight">
             Consultas
           </FadeUp>
           <FadeUp as="p" className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]" delay={0.12}>
@@ -117,7 +117,7 @@ export const ConsultasPage = (): JSX.Element => {
         <div className="relative z-10 max-w-[1200px] mx-auto flex flex-col gap-12">
           {/* Title */}
           <FadeUp className="flex flex-col gap-4 text-center items-center">
-            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-4xl leading-tight">
+            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-3xl leading-tight">
               Modalidades
             </h2>
             <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px] max-w-[600px]">
@@ -173,7 +173,7 @@ export const ConsultasPage = (): JSX.Element => {
         <div className="max-w-[1008px] mx-auto flex flex-col gap-10">
           {/* Title */}
           <FadeUp className="flex flex-col gap-4 text-center">
-            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-4xl leading-tight">
+            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-3xl leading-tight">
               Horário
             </h2>
             <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]">
