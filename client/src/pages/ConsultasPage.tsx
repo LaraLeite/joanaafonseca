@@ -34,38 +34,38 @@ const services = [
   {
     icon: "/figmaAssets/icons/icon-avaliacao.svg",
     title: "Avaliação Psicológica",
-    description:
-      "Processo estruturado que ajuda a compreender sintomas, dificuldades ou necessidades específicas, recorrendo a entrevistas e testes psicológicos.",
+    description: "Processo estruturado que ajuda a compreender sintomas, dificuldades ou necessidades específicas, recorrendo a entrevistas e testes psicológicos.",
+    details: "Processo estruturado que permite compreender de forma aprofundada sintomas, dificuldades e necessidades específicas, recorrendo a entrevistas clínicas, observação e aplicação de testes psicológicos validados. Este processo integra diferentes fontes de informação para construir uma visão global do funcionamento emocional, cognitivo e comportamental da pessoa, contribuindo para a formulação de hipóteses diagnósticas e para a definição de estratégias de intervenção ajustadas.",
   },
   {
     icon: "/figmaAssets/icons/icon-apoio.svg",
     title: "Apoio Psicológico e Psicoterapêutico",
-    description:
-      "Um espaço seguro para compreender emoções, pensamentos e comportamentos, promovendo equilíbrio, bem-estar e mudança.",
+    description: "Um espaço seguro para compreender emoções, pensamentos e comportamentos, promovendo equilíbrio, bem-estar e mudança.",
+    details: "É um lugar onde, em conjunto, procuramos compreender padrões, aprofundar o conhecimento da história e perceber de que forma esta influencia o presente, abrindo caminho a novas formas de estar e de se relacionar consigo e com os outros.",
   },
   {
     icon: "/figmaAssets/icons/icon-parental.svg",
     title: "Aconselhamento Parental",
-    description:
-      "Estratégias para apoiar pais e mães na educação dos filhos, promovendo o bem-estar da criança/adolescente e da família.",
+    description: "Estratégias para apoiar pais e mães na educação dos filhos, promovendo o bem-estar da criança/adolescente e da família.",
+    details: "Pretende ser um espaço de reflexão, apoio e orientação face às dúvidas e desafios do dia a dia, onde em conjunto, são desenvolvidas estratégias específicas que visam fortalecer as competências parentais e apoiar o processo educativo de forma consciente, segura e ajustada.",
   },
   {
     icon: "/figmaAssets/icons/icon-psicopedagogico.svg",
     title: "Apoio Psicopedagógico",
-    description:
-      "Intervenção para crianças e jovens com dificuldades de aprendizagem, atenção ou motivação escolar, estimulando competências e autoestima.",
+    description: "Intervenção para crianças e jovens com dificuldades de aprendizagem, atenção ou motivação escolar, estimulando competências e autoestima.",
+    details: "",
   },
   {
     icon: "/figmaAssets/icons/icon-consultadoria.svg",
     title: "Consultadoria",
-    description:
-      "Colaboração com famílias, escolas e instituições para prevenir e resolver dificuldades relacionais, emocionais ou organizacionais.",
+    description: "Colaboração com famílias, escolas e instituições para prevenir e resolver dificuldades relacionais, emocionais ou organizacionais.",
+    details: "Serviço de colaboração com famílias, escolas e outras instituições, com o objetivo de prevenir e intervir em dificuldades de natureza relacional, emocional ou organizacional. Através de uma abordagem personalizada, são analisadas necessidades específicas de cada contexto, promovendo estratégias práticas e eficazes que favorecem o bem-estar, a comunicação e o funcionamento saudável dos diferentes sistemas.",
   },
   {
     icon: "/figmaAssets/icons/icon-workshops.svg",
     title: "Workshops e Formações",
-    description:
-      "Formações práticas em temas como gestão de stress, orientação vocacional e métodos de estudo, dirigidas a jovens e adultos.",
+    description: "Formações práticas em temas como gestão de stress, orientação vocacional e métodos de estudo, dirigidas a jovens e adultos.",
+    details: "Sessões formativas de caráter prático e dinâmico, centradas em temas como gestão de stress, orientação vocacional, desenvolvimento pessoal e estratégias de estudo. Dirigidas a jovens e adultos, estas formações visam promover competências essenciais para o bem-estar emocional, o desempenho académico e a adaptação a diferentes desafios do dia a dia.",
   },
 ];
 
