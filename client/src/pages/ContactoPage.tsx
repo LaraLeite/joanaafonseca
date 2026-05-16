@@ -7,29 +7,39 @@ export const ContactoPage = (): JSX.Element => {
     <main className="flex flex-col w-full items-center min-h-screen bg-bg-lara">
       <MainNavigationSection />
 
-      {/* Hero Section */}
+     {/* Hero Section */}
       <section className="w-full max-w-[1446px] mx-auto px-6 mb-12">
         <div className="relative w-full aspect-[16/9] md:aspect-[1446/584] rounded-[20px] md:rounded-[30px] overflow-hidden shadow-xl">
-          <img 
-            src="/images/contacto-hero.jpg" 
-            alt="Caneta sobre papel" 
+          <img
+            src="/images/contacto-hero.jpg"
+            alt="Caneta sobre papel"
             className="absolute inset-0 w-full h-full object-cover"
             fetchpriority="high"
           />
-        </div>
-      </section>
       
-      {/* Título */}
-      <section className="w-full flex justify-center px-6 py-16 md:py-20">
-        <FadeUp className="flex flex-col gap-4 items-center text-center max-w-[953px] w-full">
-          <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-4xl md:text-4xl leading-tight">
-            Morada & Contactos
-          </h1>
-          <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]">
-            Este é um espaço de escuta, respeito e confidencialidade, onde cada pessoa é acolhida ao seu ritmo. Estamos disponíveis para o(a) 
-            acolher e acompanhar ao longo do seu processo. Entre em contacto connosco para esclarecer dúvidas ou agendar uma consulta.
-          </p>
-        </FadeUp>
+          {/* Filtro quente */}
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{ backgroundColor: "rgba(210, 140, 80, 0.18)", mixBlendMode: "multiply" }}
+            aria-hidden="true"
+          />
+      
+          {/* Overlay escuro para legibilidade do texto */}
+          <div className="absolute inset-0 bg-black/30 pointer-events-none" aria-hidden="true" />
+      
+          {/* Texto */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
+            <FadeUp className="flex flex-col gap-4 items-center max-w-[953px] w-full">
+              <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-white text-4xl leading-tight">
+                Morada & Contactos
+              </h1>
+              <p className="[font-family:'Literata',Helvetica] font-normal text-white/90 text-base leading-[30px]">
+                Este é um espaço de escuta, respeito e confidencialidade, onde cada pessoa é acolhida ao seu ritmo. Estamos disponíveis para o(a)
+                acolher e acompanhar ao longo do seu processo. Entre em contacto connosco para esclarecer dúvidas ou agendar uma consulta.
+              </p>
+            </FadeUp>
+          </div>
+        </div>
       </section>
 
       {/* Conteúdo centrado */}
