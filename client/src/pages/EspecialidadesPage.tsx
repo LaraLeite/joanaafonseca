@@ -81,7 +81,7 @@ export const EspecialidadesPage = (): JSX.Element => {
                 <Link
                   href={item.href}
                   onClick={() => window.scrollTo(0, 0)}
-                  className="btn-pill inline-block w-fit px-6 py-2.5 rounded-[50px] border border-[#C79DCE] [font-family:'Literata',Helvetica] font-medium text-[#893420] text-base hover:bg-[#B84C32] hover:text-white hover:border-[#B84C32] transition-all duration-200"
+                  className="btn-pill inline-block w-fit px-6 py-2.5 rounded-[50px] border-2 border-[#C79DCE] [font-family:'Literata',Helvetica] font-medium text-[#893420] text-base hover:bg-[#B84C32] hover:text-white hover:border-[#B84C32] transition-all duration-200"
                 >
                   Saiba mais
                 </Link>
