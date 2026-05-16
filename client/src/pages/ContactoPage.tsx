@@ -30,7 +30,7 @@ export const ContactoPage = (): JSX.Element => {
           {/* Texto */}
           <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
             <FadeUp className="flex flex-col gap-4 items-center max-w-[953px] w-full">
-              <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-white text-2xl leading-tight">
+              <h1 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-white text-3xl leading-tight">
                 Morada & Contactos
               </h1>
               <p className="[font-family:'Literata',Helvetica] font-normal text-white/90 text-base leading-[30px]">
