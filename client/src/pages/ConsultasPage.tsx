@@ -2,6 +2,7 @@ import { MainNavigationSection } from "./sections/MainNavigationSection";
 import { Footer } from "@/components/Footer";
 import { FadeUp } from "@/components/FadeUp";
 import { Link } from "wouter";
+import { useEffect, useRef, useState } from "react";
 
 const horariosCards = [
   {
@@ -69,192 +70,242 @@ const services = [
   },
 ];
 
-export const ConsultasPage = (): JSX.Element => {
+type Service = (typeof services)[0];
+
+const ServiceModal = ({
+  service,
+  onClose,
+}: {
+  service: Service;
+  onClose: () => void;
+}) => {
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    closeButtonRef.current?.focus();
+  }, []);
+
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", handleKey);
+    return () => document.removeEventListener("keydown", handleKey);
+  }, [onClose]);
+
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = ""; };
+  }, []);
+
   return (
-    <main className="flex flex-col w-full items-center min-h-screen bg-bg-lara">
-      <MainNavigationSection />
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      aria-modal="true"
+      role="dialog"
+      aria-labelledby="modal-title"
+    >
+      <div
+        className="absolute inset-0 bg-black/40"
+        onClick={onClose}
+        aria-hidden="true"
+      />
+      <div className="relative z-10 bg-[#fdf8f5] rounded-[20px] max-w-lg w-full p-8 md:p-10 shadow-2xl">
+        <button
+          ref={closeButtonRef}
+          onClick={onClose}
+          className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center text-[#502f27] hover:text-[#B84C32] transition-colors"
+          aria-label="Fechar"
+        >
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+          </svg>
+        </button>
+        <div className="w-12 h-12 bg-[#C79DCE] rounded-[14px] flex items-center justify-center mb-5">
+          <img src={service.icon} alt="" className="w-5 h-5" aria-hidden="true" />
+        </div>
+        <h2
+          id="modal-title"
+          className="[font-family:'Old_Standard_TT',Helvetica] font-normal text-[#B84C32] text-2xl leading-snug mb-4"
+        >
+          {service.title}
+        </h2>
+        <p className="[font-family:'Literata',Helvetica] font-normal text-[#502f27] text-sm leading-relaxed">
+          {service.details}
+        </p>
+      </div>
+    </div>
+  );
+};
 
-      {/* Hero */}
-      <section className="w-full max-w-[1446px] mx-auto px-6 mb-12">
-        <div className="relative w-full aspect-[16/9] md:aspect-[1446/584] rounded-[20px] md:rounded-[30px] overflow-hidden shadow-xl">
+export const ConsultasPage = (): JSX.Element => {
+  const [selectedService, setSelectedService] = useState<Service | null>(null);
+  const triggerRef = useRef<HTMLButtonElement | null>(null);
+
+  const openModal = (service: Service, trigger: HTMLButtonElement) => {
+    triggerRef.current = trigger;
+    setSelectedService(service);
+  };
+
+  const closeModal = () => {
+    setSelectedService(null);
+    triggerRef.current?.focus();
+  };
+
+  return (
+    <>
+      <main className="flex flex-col w-full items-center min-h-screen bg-bg-lara">
+        <MainNavigationSection />
+
+        {/* Hero */}
+        <section className="w-full max-w-[1446px] mx-auto px-6 mb-12">
+          <div className="relative w-full aspect-[16/9] md:aspect-[1446/584] rounded-[20px] md:rounded-[30px] overflow-hidden shadow-xl">
+            <img
+              src="/images/espaco-hero.jpg"
+              alt="Consultas Joana Afonseca"
+              className="absolute inset-0 w-full h-full object-cover"
+              fetchpriority="high"
+            />
+            <div
+              className="absolute inset-0 pointer-events-none"
+              style={{ backgroundColor: "rgba(210, 140, 80, 0.25)", mixBlendMode: "multiply" }}
+              aria-hidden="true"
+            />
+          </div>
+        </section>
+
+        {/* Título "Consultas" */}
+        <section className="w-full flex justify-center px-6 py-20">
+          <div className="flex flex-col gap-4 items-center text-center max-w-[888px] w-full">
+            <FadeUp as="h1" className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-3xl leading-tight">
+              Consultas
+            </FadeUp>
+            <FadeUp as="p" className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]" delay={0.12}>
+              As consultas decorrem num espaço de tranquilidade, privacidade e segurança, pensado para que se sinta acolhido(a) e acompanhado(a) ao longo do seu processo terapêutico. Cada acompanhamento é adaptado às suas necessidades, respeitando o seu ritmo e promovendo um caminho de maior compreensão, equilíbrio e mudança.
+            </FadeUp>
+          </div>
+        </section>
+
+        {/* Modalidades */}
+        <section className="relative w-full overflow-hidden bg-[#f0e2dd] py-16 md:py-20 px-6">
           <img
-            src="/images/espaco-hero.jpg"
-            alt="Consultas Joana Afonseca"
-            className="absolute inset-0 w-full h-full object-cover"
-            fetchpriority="high"
-          />
-          {/* Filtro quente */}
-          <div
-            className="absolute inset-0 pointer-events-none"
-            style={{ backgroundColor: "rgba(210, 140, 80, 0.25)", mixBlendMode: "multiply" }}
+            src="/figmaAssets/efeitos-bg-consultas.svg"
+            alt=""
             aria-hidden="true"
+            className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
           />
-        </div>
-      </section>
-
-      {/* Título "Consultas" */}
-      <section className="w-full flex justify-center px-6 py-20">
-        <div className="flex flex-col gap-4 items-center text-center max-w-[888px] w-full">
-          <FadeUp as="h1" className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-3xl leading-tight">
-            Consultas
-          </FadeUp>
-          <FadeUp as="p" className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]" delay={0.12}>
-            As consultas decorrem num espaço de tranquilidade, privacidade e segurança, pensado para que se sinta acolhido(a) e acompanhado(a) ao longo do seu processo terapêutico. Cada acompanhamento é adaptado às suas necessidades, respeitando o seu ritmo e promovendo um caminho de maior compreensão, equilíbrio e mudança.
-          </FadeUp>
-        </div>
-      </section>
-
-      {/* Modalidades */}
-      <section className="relative w-full overflow-hidden bg-[#f0e2dd] py-16 md:py-20 px-6">
-        {/* Decorative background */}
-        <img
-          src="/figmaAssets/efeitos-bg-consultas.svg"
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
-        />
-
-        <div className="relative z-10 max-w-[1200px] mx-auto flex flex-col gap-12">
-          {/* Title */}
-          <FadeUp className="flex flex-col gap-4 text-center items-center">
-            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-3xl leading-tight">
-              Modalidades
-            </h2>
-            <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px] max-w-[600px]">
-              Escolha a forma de acompanhamento que o faz sentir mais confortável e seguro.
-            </p>
-          </FadeUp>
-
-          {/* Two cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Presencial */}
-            <FadeUp className="relative aspect-[585/414] rounded-[24px] overflow-hidden shadow-lg" delay={0.1}>
-              <img
-                src="/images/presencial.jpg"
-                alt="Consulta Presencial"
-                className="absolute inset-0 w-full h-full object-cover"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-[rgba(184,76,50,0.8)]" />
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-center px-10">
-                <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#fafafa] text-4xl md:text-4xl leading-tight">
-                  Presencial
-                </h3>
-                <p className="[font-family:'Literata',Helvetica] font-normal text-[#fafafa] texto-sl leading-[30px] max-w-[290px]">
-                  No consultório, num espaço tranquilo e reservado.
-                </p>
-              </div>
+          <div className="relative z-10 max-w-[1200px] mx-auto flex flex-col gap-12">
+            <FadeUp className="flex flex-col gap-4 text-center items-center">
+              <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-3xl leading-tight">
+                Modalidades
+              </h2>
+              <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px] max-w-[600px]">
+                Escolha a forma de acompanhamento que o faz sentir mais confortável e seguro.
+              </p>
             </FadeUp>
-
-            {/* Online */}
-            <FadeUp className="relative aspect-[588/420] rounded-[24px] overflow-hidden shadow-lg" delay={0.2}>
-              <img
-                src="/images/online.jpg"
-                alt="Consulta Online"
-                className="absolute inset-0 w-full h-full object-cover"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-[rgba(206,136,144,0.8)]" />
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-center px-10">
-                <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#fafafa] text-4xl md:text-4xl leading-tight">
-                  Online
-                </h3>
-                <p className="[font-family:'Literata',Helvetica] font-normal text-[#fafafa] texto-sl leading-[30px] max-w-[331px]">
-                  Através de videochamada, com a mesma qualidade e confidencialidade.
-                </p>
-              </div>
-            </FadeUp>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <FadeUp className="relative aspect-[585/414] rounded-[24px] overflow-hidden shadow-lg" delay={0.1}>
+                <img src="/images/presencial.jpg" alt="Consulta Presencial" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                <div className="absolute inset-0 bg-[rgba(184,76,50,0.8)]" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-center px-10">
+                  <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#fafafa] text-4xl md:text-4xl leading-tight">Presencial</h3>
+                  <p className="[font-family:'Literata',Helvetica] font-normal text-[#fafafa] texto-sl leading-[30px] max-w-[290px]">No consultório, num espaço tranquilo e reservado.</p>
+                </div>
+              </FadeUp>
+              <FadeUp className="relative aspect-[588/420] rounded-[24px] overflow-hidden shadow-lg" delay={0.2}>
+                <img src="/images/online.jpg" alt="Consulta Online" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                <div className="absolute inset-0 bg-[rgba(206,136,144,0.8)]" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-center px-10">
+                  <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#fafafa] text-4xl md:text-4xl leading-tight">Online</h3>
+                  <p className="[font-family:'Literata',Helvetica] font-normal text-[#fafafa] texto-sl leading-[30px] max-w-[331px]">Através de videochamada, com a mesma qualidade e confidencialidade.</p>
+                </div>
+              </FadeUp>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Horário */}
-      <section className="w-full bg-bg-lara py-20 px-6">
-        <div className="max-w-[1008px] mx-auto flex flex-col gap-10">
-          {/* Title */}
-          <FadeUp className="flex flex-col gap-4 text-center">
-            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-3xl leading-tight">
-              Horário
-            </h2>
-            <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]">
-              As sessões decorrem de{" "}
-              <span className="font-bold">segunda a sexta-feira</span> entre as{" "}
-              <span className="font-bold">09:00 – 19:00h.</span>
-            </p>
-          </FadeUp>
-
-          {/* Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-[21px]">
-            {horariosCards.map((card, i) => (
-              <FadeUp
-                key={card.title}
-                className="bg-[rgba(188,88,125,0.3)] border border-[rgba(255,255,255,0.1)] rounded-[21px] flex flex-col gap-[14px] p-[22px]"
-                delay={i * 0.1}
-              >
-                <div className="flex items-center gap-[10.5px]">
-                  <div className="bg-[#F5EBE5] rounded-[12px] w-[48px] h-[48px] flex items-center justify-center shrink-0">
-                    <img src={card.icon} alt="" className="w-5 h-5" />
+        {/* Horário */}
+        <section className="w-full bg-bg-lara py-20 px-6">
+          <div className="max-w-[1008px] mx-auto flex flex-col gap-10">
+            <FadeUp className="flex flex-col gap-4 text-center">
+              <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle text-3xl md:text-3xl leading-tight">Horário</h2>
+              <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[30px]">
+                As sessões decorrem de{" "}
+                <span className="font-bold">segunda a sexta-feira</span> entre as{" "}
+                <span className="font-bold">09:00 – 19:00h.</span>
+              </p>
+            </FadeUp>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-[21px]">
+              {horariosCards.map((card, i) => (
+                <FadeUp key={card.title} className="bg-[rgba(188,88,125,0.3)] border border-[rgba(255,255,255,0.1)] rounded-[21px] flex flex-col gap-[14px] p-[22px]" delay={i * 0.1}>
+                  <div className="flex items-center gap-[10.5px]">
+                    <div className="bg-[#F5EBE5] rounded-[12px] w-[48px] h-[48px] flex items-center justify-center shrink-0">
+                      <img src={card.icon} alt="" className="w-5 h-5" />
+                    </div>
+                    <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[18px] leading-[21px]">{card.title}</p>
                   </div>
-                  <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[18px] leading-[21px]">
-                    {card.title}
+                  <ul className="flex flex-col gap-[7px]">
+                    {card.items.map((item, j) => (
+                      <li key={j} className="flex gap-[7px] pl-[48px] items-start">
+                        <span className="text-[#1e1e1e] text-[12.25px] leading-[19.9px] shrink-0">•</span>
+                        <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[14px] leading-[19.9px]">{item}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </FadeUp>
+              ))}
+            </div>
+            <FadeUp className="flex items-center gap-4 w-full pt-2" delay={0.3}>
+              <div className="flex-1 h-px bg-[#502f27]/20" />
+              <img src="/figmaAssets/icons/icon-flor.svg" alt="" className="w-5 h-5 opacity-50" />
+              <div className="flex-1 h-px bg-[#502f27]/20" />
+            </FadeUp>
+          </div>
+        </section>
+
+        {/* Serviços */}
+        <section id="servicos" className="w-full bg-bg-lara px-6 pb-24">
+          <div className="max-w-[1200px] mx-auto flex flex-col gap-14">
+            <FadeUp className="flex flex-col gap-[21px] text-center">
+              <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle md:text-3xl leading-[42px]">Serviços</h2>
+              <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[17.5px] leading-[24.5px]">
+                Disponibilizamos uma variedade de serviços especializados, adaptados às necessidades de cada pessoa, família ou instituição.
+              </p>
+            </FadeUp>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-14">
+              {services.map((service, i) => (
+                <FadeUp key={service.title} className="flex flex-col items-center gap-[18px] text-center" delay={i * 0.08}>
+                  <div className="bg-[#C79DCE] rounded-[12px] w-[52px] h-[52px] flex items-center justify-center shrink-0">
+                    <img src={service.icon} alt="" className="w-5 h-5" />
+                  </div>
+                  <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal not-italic text-textotitle text-[22px] leading-[24.5px]">
+                    {service.title}
+                  </h3>
+                  <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[14px] leading-[22.75px]">
+                    {service.description}
                   </p>
-                </div>
-                <ul className="flex flex-col gap-[7px]">
-                  {card.items.map((item, j) => (
-                    <li key={j} className="flex gap-[7px] pl-[48px] items-start">
-                      <span className="text-[#1e1e1e] text-[12.25px] leading-[19.9px] shrink-0">•</span>
-                      <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[14px] leading-[19.9px]">
-                        {item}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              </FadeUp>
-            ))}
+                  {service.details && (
+                    <button
+                      onClick={(e) => openModal(service, e.currentTarget)}
+                      className="mt-1 text-[#893420] [font-family:'Literata',Helvetica] text-sm underline underline-offset-2 hover:text-[#B84C32] transition-colors"
+                      aria-label={`Saber mais sobre ${service.title}`}
+                    >
+                      Saber mais
+                    </button>
+                  )}
+                </FadeUp>
+              ))}
+            </div>
           </div>
+        </section>
 
-          {/* Separator */}
-          <FadeUp className="flex items-center gap-4 w-full pt-2" delay={0.3}>
-            <div className="flex-1 h-px bg-[#502f27]/20" />
-            <img src="/figmaAssets/icons/icon-flor.svg" alt="" className="w-5 h-5 opacity-50" />
-            <div className="flex-1 h-px bg-[#502f27]/20" />
-          </FadeUp>
-        </div>
-      </section>
+        <Footer />
+      </main>
 
-      {/* Serviços */}
-      <section id="servicos" className="w-full bg-bg-lara px-6 pb-24">
-        <div className="max-w-[1200px] mx-auto flex flex-col gap-14">
-          <FadeUp className="flex flex-col gap-[21px] text-center">
-            <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle md:text-3xl leading-[42px]">
-              Serviços
-            </h2>
-            <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[17.5px] leading-[24.5px]">
-              Disponibilizamos uma variedade de serviços especializados, adaptados às necessidades de cada pessoa, família ou instituição.
-            </p>
-          </FadeUp>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-14">
-            {services.map((service, i) => (
-              <FadeUp key={service.title} className="flex flex-col items-center gap-[18px] text-center" delay={i * 0.08}>
-                <div className="bg-[#C79DCE] rounded-[12px] w-[52px] h-[52px] flex items-center justify-center shrink-0">
-                  <img src={service.icon} alt="" className="w-5 h-5" />
-                </div>
-                <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal not-italic text-textotitle text-[22px] leading-[24.5px]">
-                  {service.title}
-                </h3>
-                <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[14px] leading-[22.75px]">
-                  {service.description}
-                </p>
-              </FadeUp>
-            ))}
-          </div>
-
-        
-        </div>
-      </section>
-
-      <Footer />
-    </main>
+      {selectedService && (
+        <ServiceModal service={selectedService} onClose={closeModal} />
+      )}
+    </>
   );
 };
