@@ -35,7 +35,7 @@ export const SobrePage = (): JSX.Element => {
       {/* About Content */}
       <section className="w-full max-w-4xl mx-auto px-6 pb-20 text-center flex flex-col gap-8">
         <FadeUp as="header" className="flex flex-col gap-4">
-          <h1 className="[font-family:'Old_Standard_TT',Helvetica] italic text-textotitle text-4xl md:text-4xl">
+          <h1 className="[font-family:'Old_Standard_TT',Helvetica] italic text-textotitle text-3xl md:text-3xl">
             Sobre mim
           </h1>
           <p className="texto-sl [font-family:'Literata',Helvetica] text-textoparagraph">
