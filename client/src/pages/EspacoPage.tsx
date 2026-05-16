@@ -16,6 +16,12 @@ export const EspacoPage = (): JSX.Element => {
             className="absolute inset-0 w-full h-full object-cover"
             fetchpriority="high"
           />
+          {/* Filtro quente */}
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{ backgroundColor: "rgba(210, 140, 80, 0.18)", mixBlendMode: "multiply" }}
+            aria-hidden="true"
+          />
         </div>
       </section>
 
