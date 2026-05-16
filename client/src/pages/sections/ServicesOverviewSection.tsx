@@ -41,7 +41,7 @@ export const ServicesOverviewSection = (): JSX.Element => {
           <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-3xl tracking-tight leading-tight">
             Serviços
           </h2>
-          <p className="max-w-[800px] [font-family:'Literata',Helvetica] font-normal text-[#502f27] text-base md:text-[1.1rem] leading-relaxed">
+          <p className="max-w-[900px] [font-family:'Literata',Helvetica] font-normal text-[#502f27] text-sm leading-relaxed">
            A relação terapêutica é o coração do nosso trabalho. Valorizamos a criação de um espaço seguro, acolhedor e livre de julgamentos, onde cada pessoa se possa sentir verdadeiramente escutada, compreendida e respeitada na sua singularidade. Acreditamos que o processo terapêutico é um caminho de colaboração, construído em conjunto, ao ritmo e de acordo com as necessidades de cada um, onde assumimos o compromisso de uma prática em constante atualização.
           </p>
         </FadeUp>
