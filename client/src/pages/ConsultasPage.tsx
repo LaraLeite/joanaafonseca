@@ -31,7 +31,7 @@ const horariosCards = [
   },
 ];
 
-const services = [
+const servicesData = [
   {
     icon: "/figmaAssets/icons/icon-avaliacao.svg",
     title: "Avaliação Psicológica",
@@ -40,33 +40,33 @@ const services = [
   },
   {
     icon: "/figmaAssets/icons/icon-apoio.svg",
-    title: "Apoio Psicológico e Psicoterapêutico",
-    description: "Um espaço seguro para compreender emoções, pensamentos e comportamentos, promovendo equilíbrio, bem-estar e mudança.",
+    title: "Psicologia Clínica e Psicoterapia",
+    description: "Espaço de compreensão e transformação, onde exploramos a sua história e os padrões que influenciam a forma como vive e se relaciona.",
     details: "É um lugar onde, em conjunto, procuramos compreender padrões, aprofundar o conhecimento da história e perceber de que forma esta influencia o presente, abrindo caminho a novas formas de estar e de se relacionar consigo e com os outros.",
   },
   {
     icon: "/figmaAssets/icons/icon-parental.svg",
-    title: "Aconselhamento Parental",
-    description: "Estratégias para apoiar pais e mães na educação dos filhos, promovendo o bem-estar da criança/adolescente e da família.",
+    title: "Aconselhamento Psicológico Parental",
+    description: "Espaço de apoio e orientação que ajuda a fortalecer competências parentais e a lidar com os desafios do dia a dia de forma consciente e ajustada.",
     details: "Pretende ser um espaço de reflexão, apoio e orientação face às dúvidas e desafios do dia a dia, onde em conjunto, são desenvolvidas estratégias específicas que visam fortalecer as competências parentais e apoiar o processo educativo de forma consciente, segura e ajustada.",
   },
   {
     icon: "/figmaAssets/icons/icon-psicopedagogico.svg",
-    title: "Apoio Psicopedagógico",
-    description: "Intervenção para crianças e jovens com dificuldades de aprendizagem, atenção ou motivação escolar, estimulando competências e autoestima.",
-    details: "",
+    title: "Aconselhamento Psicológico Perinatal",
+    description: "Espaço de apoio emocional para cuidar das transformações e desafios desde a pré-conceção ao pós-parto.",
+    details: "Período de grande transformação, muitas vezes vivido com intensidade e acompanhado por desafios, dúvidas e emoções diversas. Desde a pré-conceção até ao pós-parto, incluindo situações de infertilidade, oferecemos um espaço de apoio onde é possível compreender, integrar e cuidar das experiências vividas ao longo deste percurso.",
   },
   {
     icon: "/figmaAssets/icons/icon-consultadoria.svg",
     title: "Consultadoria",
     description: "Colaboração com famílias, escolas e instituições para prevenir e resolver dificuldades relacionais, emocionais ou organizacionais.",
-    details: "Serviço de colaboração com famílias, escolas e outras instituições, com o objetivo de prevenir e intervir em dificuldades de natureza relacional, emocional ou organizacional. Através de uma abordagem personalizada, são analisadas necessidades específicas de cada contexto, promovendo estratégias práticas e eficazes que favorecem o bem-estar, a comunicação e o funcionamento saudável dos diferentes sistemas.",
+    details: "Serviço de colaboração com famílias, escolas e outras instituições, com o objetivo de prevenir e intervir em dificuldades de natureza relacional, emocional ou organizacional. Através de uma abordagem personalizada, são analisadas necessidades específicas de cada contexto, promovendo estratégias práticas e eficazes que favorecem o bem-estar, a comunicação e o funcionamento saudável dos diferentes sistemas. Este acompanhamento pode incluir orientação, formação e apoio na tomada de decisão, contribuindo para soluções sustentadas e ajustadas a cada realidade.",
   },
   {
     icon: "/figmaAssets/icons/icon-workshops.svg",
     title: "Workshops e Formações",
-    description: "Formações práticas em temas como gestão de stress, orientação vocacional e métodos de estudo, dirigidas a jovens e adultos.",
-    details: "Sessões formativas de caráter prático e dinâmico, centradas em temas como gestão de stress, orientação vocacional, desenvolvimento pessoal e estratégias de estudo. Dirigidas a jovens e adultos, estas formações visam promover competências essenciais para o bem-estar emocional, o desempenho académico e a adaptação a diferentes desafios do dia a dia.",
+    description: "Formações práticas em temas como gestão de stress, orientação vocacional e habilidades de estudo, dirigidas a jovens e adultos.",
+    details: "Sessões formativas de caráter prático e dinâmico, centradas em temas como gestão de stress, orientação vocacional, desenvolvimento pessoal e estratégias de estudo. Dirigidas a jovens e adultos, estas formações visam promover competências essenciais para o bem-estar emocional, o desempenho académico e a adaptação a diferentes desafios do dia a dia. Através de metodologias participativas e baseadas na evidência, os participantes são incentivados a refletir, experimentar e aplicar ferramentas úteis no seu quotidiano, potenciando mudanças consistentes e sustentadas.",
   },
 ];
 
