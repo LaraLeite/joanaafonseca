@@ -268,8 +268,8 @@ export const ConsultasPage = (): JSX.Element => {
           <div className="max-w-[1200px] mx-auto flex flex-col gap-14">
             <FadeUp className="flex flex-col gap-[21px] text-center">
               <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle md:text-3xl leading-[42px]">Serviços</h2>
-              <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[17.5px] leading-[24.5px]">
-                Disponibilizamos uma variedade de serviços especializados, adaptados às necessidades de cada pessoa, família ou instituição.
+              <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph text-[14px] leading-[24.5px]">
+                A relação terapêutica é o coração do nosso trabalho. Valorizamos a criação de um espaço seguro, acolhedor e livre de julgamentos, onde cada pessoa se possa sentir verdadeiramente escutada, compreendida e respeitada na sua singularidade. Acreditamos que o processo terapêutico é um caminho de colaboração, construído em conjunto, ao ritmo e de acordo com as necessidades de cada um, onde assumimos o compromisso de uma prática em constante atualização.
               </p>
             </FadeUp>
 
