@@ -50,7 +50,7 @@ export const ConsultationsInfoSection = (): JSX.Element => {
           <h2 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-[#893420] text-3xl tracking-tight leading-tight">
             Consultas
           </h2>
-          <p className="max-w-[680px] [font-family:'Literata',Helvetica] font-normal text-[#502f27] text-base md:text-[14px] leading-relaxed">
+          <p className="max-w-[900px] [font-family:'Literata',Helvetica] font-normal text-[#502f27] text-base md:text-[14px] leading-relaxed">
             Todas as sessões decorrem num ambiente pensado para proporcionar tranquilidade, privacidade e segurança, onde poderá sentir-se verdadeiramente acolhido/a e livre para partilhar, 
             ao seu ritmo, aquilo que é importante para si. 
             <span class="block">Este é um espaço de confiança, construído com respeito e confidencialidade, 
