@@ -239,7 +239,7 @@ export const EspecialidadeDetailPage = (): JSX.Element => {
                   </div>
                 </Link>
                   <div className="flex flex-col gap-3">
-                    <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle md:text-3xl  text-xl leading-tight">
+                    <h3 className="[font-family:'Old_Standard_TT',Helvetica] font-normal italic text-textotitle md:text-2xl md:text-[22px] leading-tight">
                       {item.title}
                     </h3>
                     <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-relaxed">
