@@ -31,7 +31,7 @@ const horariosCards = [
   },
 ];
 
-const servicesData = [
+const services = [
   {
     icon: "/figmaAssets/icons/icon-avaliacao.svg",
     title: "Avaliação Psicológica",
