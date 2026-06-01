@@ -72,7 +72,7 @@ export const InterventionAreasSection = (): JSX.Element => {
               <Link
                 href={`/especialidades/${area.slug}`}
                 onClick={() => window.scrollTo(0, 0)}
-                className="btn-pill inline-block w-fit px-4 py-1.5 rounded-[50px] border border-[#C79DCE] [font-family:'Literata',Helvetica] font-medium text-sm text-[#893420] text-base hover:bg-[#B84C32] hover:text-white hover:border-[#B84C32] transition-all duration-200"
+                className="btn-pill inline-block w-fit px-4 py-1 rounded-[50px] border border-[#C79DCE] [font-family:'Literata',Helvetica] font-medium text-sm text-[#893420] text-base hover:bg-[#B84C32] hover:text-white hover:border-[#B84C32] transition-all duration-200"
               >
                 Saiba mais
               </Link>
