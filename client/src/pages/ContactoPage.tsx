@@ -55,10 +55,10 @@ export const ContactoPage = (): JSX.Element => {
               Presencial:
             </p>
             <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[26px]">
-              Rua Visconde Anadia, nº19, Ed. Anadia, 6º Andar, Sala AF
+              Estrada Monumental, nº 424, Edifício Varino 5 R/C Fracção A
             </p>
             <p className="[font-family:'Literata',Helvetica] font-normal text-textoparagraph texto-sl leading-[26px]">
-              9050-020 Funchal
+              9000-100 Funchal
             </p>
           </div>
 
