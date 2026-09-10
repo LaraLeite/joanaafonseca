@@ -109,8 +109,8 @@ export const Footer = () => {
                 <div className="flex items-start gap-2">
                   <img src="/figmaAssets/icons/icon-morada.svg" alt="" className="w-5 h-5 mt-0.5 flex-shrink-0" />
                   <span className="text-[#502f27] text-[14px] leading-relaxed">
-                    Rua Visconde Anadia, nº19, Ed. Anadia,<br />
-                    6º Andar, Sala AF · 9050-020 Funchal
+                    Estrada Monumental, nº 424, Ed. Varino 5,<br />
+                    R/C Fracção A · 9000-100 Funchal
                   </span>
                 </div>
               </div>
