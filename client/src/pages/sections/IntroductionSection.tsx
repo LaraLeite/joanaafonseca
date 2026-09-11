@@ -24,7 +24,7 @@ export const IntroductionSection = (): JSX.Element => {
 
           <FadeUp delay={0.15} className="hidden md:flex justify-end items-end">
             <img
-              className="w-full max-w-[584px] h-[470px] object-cover object-top rounded-[24px]"
+              className="w-full max-w-[464px] h-[600px] object-cover object-top rounded-[24px]"
               alt="Joana Afonseca"
               src="/figmaAssets/group-22.png"
             />
