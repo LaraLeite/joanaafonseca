@@ -93,7 +93,7 @@ export const SobrePage = (): JSX.Element => {
           </div>
           <FadeUp className="aspect-square rounded-[20px] md:rounded-[30px] overflow-hidden shadow-xl" delay={0.2}>
             <img 
-              src="/images/joana-foto.jpg" 
+              src="/images/joana-foto-2.jpg" 
               alt="Percurso Profissional" 
               className="w-full h-full object-cover object-center"
               loading="lazy"
