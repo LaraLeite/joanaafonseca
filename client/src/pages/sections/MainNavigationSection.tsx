@@ -56,7 +56,7 @@ export const MainNavigationSection = (): JSX.Element => {
         <img
           className="w-[130px] lg:w-[150px] h-auto cursor-pointer"
           alt="Logo"
-          src="/figmaAssets/logo.svg"
+          src="/figmaAssets/logo.png"
         />
       </Link>
 
