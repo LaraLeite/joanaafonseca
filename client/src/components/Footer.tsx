@@ -20,7 +20,7 @@ export const Footer = () => {
             <div className="flex flex-col items-start gap-3">
               <Link href="/">
                 <img
-                  src="/figmaAssets/logo.svg"
+                  src="/figmaAssets/logo.png"
                   alt="Joana Afonseca"
                   className="h-24 w-auto cursor-pointer"
                   onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
@@ -109,8 +109,8 @@ export const Footer = () => {
                 <div className="flex items-start gap-2">
                   <img src="/figmaAssets/icons/icon-morada.svg" alt="" className="w-5 h-5 mt-0.5 flex-shrink-0" />
                   <span className="text-[#502f27] text-[14px] leading-relaxed">
-                    Estrada Monumental, nº 424, Ed. Varino 5,<br />
-                    R/C Fracção A · 9000-100 Funchal
+                    Estrada Monumental, nº 424, Ed. Varino 5, R/C Fracção A<br />
+                    9000-100 Funchal
                   </span>
                 </div>
               </div>
