@@ -26,7 +26,7 @@ export const IntroductionSection = (): JSX.Element => {
             <img
               className="w-full max-w-[464px] h-[600px] object-cover object-top rounded-[24px]"
               alt="Joana Afonseca"
-              src="/images/joana-foto.png"
+              src="/images/joana-foto.jpg"
             />
           </FadeUp>
         </div>
