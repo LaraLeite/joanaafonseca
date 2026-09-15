@@ -109,7 +109,8 @@ export const Footer = () => {
                 <div className="flex items-start gap-2">
                   <img src="/figmaAssets/icons/icon-morada.svg" alt="" className="w-5 h-5 mt-0.5 flex-shrink-0" />
                   <span className="text-[#502f27] text-[14px] leading-relaxed">
-                    Estrada Monumental, nº 424, Ed. Varino 5, R/C Fracção A<br />
+                    Estrada Monumental, nº 424,<br />
+                    Ed. Varino 5, R/C Fracção A<br />
                     9000-100 Funchal
                   </span>
                 </div>
