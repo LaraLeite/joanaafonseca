@@ -54,7 +54,7 @@ export const MainNavigationSection = (): JSX.Element => {
       {/* Logo */}
       <Link href="/" className="flex-1 flex justify-center lg:flex-none flex-shrink-0">
         <img
-          className="w-[130px] lg:w-[150px] h-auto cursor-pointer"
+          className="w-[175px] lg:w-[200px] h-auto cursor-pointer"
           alt="Logo"
           src="/figmaAssets/logo.png"
         />
