@@ -118,7 +118,8 @@ export const SobrePage = (): JSX.Element => {
 
           <div className="flex flex-col gap-8">
             {[
-              { year: "2025", items: ["Terapeuta IFS - Internal Family Systems - nível 1, Sociedade Portuguesa de Psicoterapias Construtivistas"] },
+              { year: "2026", items: ["Terapeuta IFS - Internal Family Systems - nível 2 -  IFIO on Couples and Relationships, Sociedade Portuguesa de Psicoterapias Construtivistas"] },
+              { year: "2025", items: ["Terapeuta IFS - Internal Family Systems - nível 1 - Sociedade Portuguesa de Psicoterapias Construtivistas"] },
               { year: "2024", items: ["Psicoterapeuta pela Sociedade Portuguesa de Psicoterapias Construtivistas (em formação)", "Terapeuta EMDR, nível II, pela Associação Portuguesa de EMDR, Membro nº514", "Formação na Comunidade: Mentalizando - orientada pela Psiquiatra Perinatal Doutora Teresa Reis"] },
               { year: "2023", items: ["Especialização Avançada Pós-Universitária em Intervenção na Gravidez e na Parentalidade"] },
               { year: "2021", items: ["Especialização Avançada em Terapias Cognitivo-Comportamentais com Adultos"] },
