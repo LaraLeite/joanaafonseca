@@ -22,7 +22,7 @@ export const Footer = () => {
                 <img
                   src="/figmaAssets/logo.png"
                   alt="Joana Afonseca"
-                  className="h-24 w-auto cursor-pointer"
+                  className="h-32 w-auto cursor-pointer"
                   onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                 />
               </Link>
