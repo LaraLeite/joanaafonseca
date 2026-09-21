@@ -65,7 +65,7 @@ export const EspacoPage = (): JSX.Element => {
 
           {/* Photos grid */}
           <div className="relative z-10 w-full max-w-[1446px] mx-auto px-6 py-12 md:py-16">
-            <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-4 md:gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_4fr] gap-4 md:gap-6">
               {/* Main large image */}
               <FadeUp className="relative aspect-[4/5] md:aspect-auto rounded-[20px] md:rounded-[30px] overflow-hidden shadow-lg">
                 <img
